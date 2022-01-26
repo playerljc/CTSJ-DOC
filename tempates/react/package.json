@@ -1,0 +1,80 @@
+{
+  "name": "@ctsj/react-doc",
+  "private": true,
+  "version": "1.0.0",
+  "description": "react的doc",
+  "scripts": {
+    "startapp": "cross-env mode=development ctbuild startapp --define alias=@,evnVars=true,cssModules=true,static=assets",
+    "buildapp": "cross-env mode=production ctbuild buildapp --define alias=@,evnVars=true,cssModules=true,static=assets",
+    "lint": "npm run lint:js && npm run lint:style && npm run lint:prettier",
+    "lint-staged": "lint-staged",
+    "lint-staged:js": "eslint --ext .js,.jsx,.ts,.tsx ",
+    "lint:fix": "eslint --fix --cache --ext .js,.jsx,.ts,.tsx --format=pretty ./src && npm run lint:style",
+    "lint:js": "eslint --cache --ext .js,.jsx,.ts,.tsx --format=pretty ./src",
+    "lint:prettier": "check-prettier lint",
+    "lint:style": "stylelint --fix \"src/**/*.less\" --syntax less",
+    "prettier": "prettier -c --write \"**/*\""
+  },
+  "lint-staged": {
+    "**/*.less": "stylelint --syntax less",
+    "**/*.{js,jsx,tsx,ts,less,md,json}": [
+      "prettier --write",
+      "git add"
+    ],
+    "**/*.{js,jsx,ts,tsx}": "npm run lint-staged:js"
+  },
+  "resolutions": {
+    "graceful-fs": "4.2.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://gitee.com/playerljc/adhere"
+  },
+  "author": "playerljc",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/runtime": "^7.7.4",
+    "@ctsj/build": "^4.0.19",
+    "@umijs/fabric": "^2.8.0",
+    "babel-plugin-import": "^1.13.3",
+    "cross-env": "^7.0.2",
+    "eslint": "^7.32.0",
+    "eslint-plugin-comments": "^1.0.0",
+    "eslint-plugin-eslint-comments": "^3.2.0",
+    "eslint-plugin-import": "^2.24.2",
+    "eslint-plugin-jest": "^24.4.2",
+    "eslint-plugin-react": "^7.26.0",
+    "eslint-plugin-react-hooks": "^4.2.0",
+    "eslint-plugin-unicorn": "^36.0.0",
+    "husky": "^4.2.5",
+    "lint-staged": "^10.2.0",
+    "prettier": "^2.4.1",
+    "raw-loader": "^4.0.2",
+    "stylelint": "^13.13.1"
+  },
+  "dependencies": {
+    "core-js": "^3.6.5",
+    "@ant-design/icons": "^4.4.0",
+    "@baifendian/adhere": "^1.0.14",
+    "@ctsj/router": "^1.0.1",
+    "@ctsj/state": "^2.0.21",
+    "antd": "^4.9.4",
+    "bmap-wind": "^1.1.1-alpha.2",
+    "classnames": "^2.2.6",
+    "component-playground": "^3.2.1",
+    "copy-to-clipboard": "^3.3.1",
+    "echarts": "^5.1.1",
+    "echarts-for-react": "^3.0.1",
+    "echarts-wordcloud": "^2.0.0",
+    "faker": "^5.4.0",
+    "font-awesome": "^4.7.0",
+    "moment": "^2.29.1",
+    "ol": "^6.5.0",
+    "rc-queue-anim": "^1.8.5",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-markdown": "^7.0.1",
+    "remark-gfm": "^2.0.0",
+    "uuid": "^8.3.2"
+  }
+}
