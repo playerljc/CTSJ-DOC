@@ -14,13 +14,8 @@ export default () => {
           <dd>
             <ul className={styles.ItemList}>
               <li className={styles.ItemListItem}>
-                自主研发
+                XXX
                 <ul>
-                  <li>
-                    <a href="http://49.232.163.126:8084/" target="_blank" rel="noopener noreferrer">
-                      adherev
-                    </a>
-                  </li>
                   <li>
                     <a
                       href="https://github.com/playerljc/CTSJ-BUILD"
@@ -96,7 +91,7 @@ export default () => {
                 </ul>
               </li>
               <li className={styles.ItemListItem}>
-                模板工程
+                XXX
                 <ul>
                   <li>
                     <a
@@ -104,16 +99,7 @@ export default () => {
                       target="_blank"
                       rel="noopener noreferrer"
                     >
-                      ReactPro(G1)
-                    </a>
-                  </li>
-                  <li>
-                    <a
-                      href="https://gitee.com/playerljc/ReactPro/tree/polyfill"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      ReactPro(G1)(支持IE)
+                      adhere
                     </a>
                   </li>
                   <li>
@@ -122,7 +108,7 @@ export default () => {
                       target="_blank"
                       rel="noopener noreferrer"
                     >
-                      ReactPro(G1)(SSR)
+                      ReactPro(SSR)
                     </a>
                   </li>
                   <li>
@@ -131,25 +117,7 @@ export default () => {
                       target="_blank"
                       rel="noopener noreferrer"
                     >
-                      AntPro(G1)
-                    </a>
-                  </li>
-                  <li>
-                    <a
-                      href="http://git.baifendian.com/dongxu.guo/ReactWeb"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      ReactWeb(G3)
-                    </a>
-                  </li>
-                  <li>
-                    <a
-                      href="http://git.baifendian.com/bo.li/Percent_Vue_Admin.git"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      PercentVue(G3)
+                      AntPro
                     </a>
                   </li>
                   <li>
@@ -158,7 +126,7 @@ export default () => {
                       target="_blank"
                       rel="noopener noreferrer"
                     >
-                      VuePro(G1)
+                      VuePro
                     </a>
                   </li>
                 </ul>

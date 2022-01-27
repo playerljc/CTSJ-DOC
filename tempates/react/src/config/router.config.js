@@ -110,8 +110,6 @@ const PolygonSelection = lazy(() =>
 const PlayGround = lazy(() =>
   import(/* webpackChunkName: "playground" */ '@/components/ui/playground'),
 );
-const BMap = lazy(() => import(/* webpackChunkName: "bmap" */ '@/components/ui/bmap'));
-
 const Hooks = lazy(() => import(/* webpackChunkName: "hooks" */ '@/components/ui/hooks'));
 
 const AdapterScreen = lazy(() =>
@@ -149,12 +147,6 @@ const ReactUtil = lazy(() =>
 const Echarts = lazy(() =>
   import(/* webpackChunkName: "echarts" */ '@/components/gallery/echarts'),
 );
-const MapTalks = lazy(() =>
-  import(/* webpackChunkName: "gis" */ '@/components/gallery/gis/maptalks'),
-);
-const BMaps = lazy(() => import(/* webpackChunkName: "gis" */ '@/components/gallery/gis/bmap'));
-
-const Graph = lazy(() => import(/* webpackChunkName: "graph" */ '@/components/gallery/graph'));
 
 const Demo = lazy(() => import(/* webpackChunkName: "demo" */ '@/components/ui/demo'));
 
@@ -189,31 +181,6 @@ export default () => [
             path: '/adhere/gallery/echarts',
             name: 'Echarts',
             component: Echarts,
-          },
-          {
-            path: '/adhere/gallery/gis',
-            name: 'GIS',
-            routes: [
-              {
-                path: '/',
-                redirect: '/adhere/gallery/gis/maptalks',
-              },
-              {
-                path: '/adhere/gallery/gis/bmap',
-                name: 'BMaps',
-                component: BMaps,
-              },
-              {
-                path: '/adhere/gallery/gis/maptalks',
-                name: 'MapTalks',
-                component: MapTalks,
-              },
-            ],
-          },
-          {
-            path: '/adhere/gallery/graph',
-            name: 'Graph',
-            component: Graph,
           },
         ],
       },
@@ -437,11 +404,6 @@ export default () => [
                 path: '/adhere/component/ui/playground',
                 name: 'PlayGround',
                 component: PlayGround,
-              },
-              {
-                path: '/adhere/component/ui/bmap',
-                name: 'BMap',
-                component: BMap,
               },
               {
                 path: '/adhere/component/ui/hooks',
