@@ -18,7 +18,8 @@ let directoryPath;
 let client;
 
 /**
- * createProjectFolder - 在目标目录中新建项目目录
+ * createProjectFolder
+ * @description 在目标目录中新建项目目录
  */
 function createProjectFolder() {
   if (fs.existsSync(directoryPath)) {
@@ -30,7 +31,8 @@ function createProjectFolder() {
 }
 
 /**
- * copyTemplateToProject - 模板复制到项目目录
+ * copyTemplateToProject
+ * @description 模板复制到项目目录
  */
 function copyTemplateToProject() {
   const zipName = `${templateType}.zip`;
@@ -47,18 +49,10 @@ function copyTemplateToProject() {
 }
 
 /**
- * run - 运行
+ * install
+ * @description 安装工程依赖
  */
-function run() {
-  npmInstall().then(() => {
-    log(chalk.blue('安装依赖包完成'));
-    npmRunStartApp().then(() => {
-      log(chalk.blue('启动完成'));
-    });
-  });
-}
-
-function npmInstall() {
+function install() {
   return new Promise((resolve) => {
     // 执行install
     const iproc = spawn(Util.isWin32() ? `${client}.cmd` : client, ['install'], {
@@ -78,31 +72,33 @@ function npmInstall() {
       log(chalk.yellow(`install：${code}`));
       resolve();
     });
+  }).then(() => {
+    log(chalk.blue('install dependencies complete'));
   });
 }
 
-function npmRunStartApp() {
-  return new Promise((resolve) => {
-    // 执行npm run startapp
-    const sproc = spawn(Util.isWin32() ? `npm.cmd` : 'npm', ['run', 'startapp'], {
-      cwd: directoryPath,
-      encoding: 'utf-8',
-    });
-
-    sproc.stdout.on('data', (data) => {
-      log(chalk.green(`stdout: ${data}`));
-    });
-
-    sproc.stderr.on('data', (data) => {
-      log(chalk.red(`stderr: ${data}`));
-    });
-
-    sproc.on('close', (code) => {
-      log(chalk.yellow(`run startapp：${code}`));
-      resolve();
-    });
-  });
-}
+// function start() {
+//   return new Promise((resolve) => {
+//     // 执行npm run startapp
+//     const sproc = spawn(Util.isWin32() ? `npm.cmd` : 'npm', ['run', 'startapp'], {
+//       cwd: directoryPath,
+//       encoding: 'utf-8',
+//     });
+//
+//     sproc.stdout.on('data', (data) => {
+//       log(chalk.green(`stdout: ${data}`));
+//     });
+//
+//     sproc.stderr.on('data', (data) => {
+//       log(chalk.red(`stderr: ${data}`));
+//     });
+//
+//     sproc.on('close', (code) => {
+//       log(chalk.yellow(`run startapp：${code}`));
+//       resolve();
+//     });
+//   });
+// }
 
 /**
  * exec
@@ -112,7 +108,7 @@ function npmRunStartApp() {
 function* Iterator() {
   yield createProjectFolder();
   yield copyTemplateToProject();
-  // yield run();
+  yield install();
 }
 
 module.exports = function (entry) {

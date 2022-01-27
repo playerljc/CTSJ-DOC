@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Menu } from 'antd';
 import { withRouter } from '@ctsj/router';
-import packageJSON from '../../../../../package.json';
+import packageJSON from '../../../package.json';
 
 import styles from './index.less';
 
