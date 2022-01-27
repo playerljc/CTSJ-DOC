@@ -1,71 +1,41 @@
-## CTSJ-DOC
-&ensp;&ensp;一个文档生成工具，分别包含React和Vue两套生成文档的工程模板
-
-* React工程模板  
-  * 使用 **[@ctsj/build](https://www.npmjs.com/package/@ctsj/build)** 进行构建
-  * 使用 **[@ctsj/router](https://www.npmjs.com/package/@ctsj/router)** 做路由跳转
-  * 使用 **[ant-design](https://ant.design/)** 做UI
-  * 使用 **[@baifendian/adhere-ui-playground](https://www.npmjs.com/package/@baifendian/adhere-ui-playground)** 作为代码展示组件，
-  具体请参考[线上例子](http://49.232.163.126:8083/adhere/component/ui/demo) , 配置请[参考](http://49.232.163.126:8083/adhere/component/ui/playground)
-    * AnchorNavigation - 带有锚点导航的面板
-    * CodeBoxPanel - 代码展示组面板(可包含Playground、PlayGroundTab和PlaygroundMulit)
-    * CodePanel - 单个代码显示面板
-    * CodeTabPanel - 带有选项卡切换的代码显示面板
-    * FunctionProps - 函数说明面板
-    * Props - React的Props说明面板
-    * Playground - 基本的代码和例子展示面板(包含CodePanel)
-    * PlayGroundTab - 带有选项卡切换的代码和例子展示面板(包含CodeTabPanel)
-    * PlaygroundMulit - 多代码和例子展示面板(包含Playground和PlaygroundMulit)
-    * PlaygroundPage - 包含AnchorNavigation和CodeBoxPanel
+## React工程模板  
+* 使用 **[@ctsj/build](https://www.npmjs.com/package/@ctsj/build)** 进行构建
+* 使用 **[@ctsj/router](https://www.npmjs.com/package/@ctsj/router)** 做路由跳转
+* 使用 **[ant-design](https://ant.design/)** 做UI
+* 使用 **[@baifendian/adhere-ui-playground](https://www.npmjs.com/package/@baifendian/adhere-ui-playground)** 作为代码展示组件，
+具体请参考[线上例子](http://49.232.163.126:8083/adhere/component/ui/demo) , 配置请[参考](http://49.232.163.126:8083/adhere/component/ui/playground)
+  * AnchorNavigation - 带有锚点导航的面板
+  * CodeBoxPanel - 代码展示组面板(可包含Playground、PlayGroundTab和PlaygroundMulit)
+  * CodePanel - 单个代码显示面板
+  * CodeTabPanel - 带有选项卡切换的代码显示面板
+  * FunctionProps - 函数说明面板
+  * Props - React的Props说明面板
+  * Playground - 基本的代码和例子展示面板(包含CodePanel)
+  * PlayGroundTab - 带有选项卡切换的代码和例子展示面板(包含CodeTabPanel)
+  * PlaygroundMulit - 多代码和例子展示面板(包含Playground和PlaygroundMulit)
+  * PlaygroundPage - 包含AnchorNavigation和CodeBoxPanel
   * React - 17.x
   * Ant-Design - 4.x
   * Typescript 4.x
  
-* Vue工程模板
-  * 使用 **[@ctsj/buildv](https://www.npmjs.com/package/@ctsj/buildv)** 进行构建
-  * 使用 **[vue-router](https://router.vuejs.org/zh/)** 做路由跳转
-  * 使用 **[ant-design-vue](https://www.antdv.com/docs/vue/introduce-cn/)** 做UI
-  * 使用 **[@baifendian/adherev-ui-playground](https://www.npmjs.com/package/@baifendian/adherev-ui-playground)** 作为代码展示组件
-  * Vue - 2.x
-  * Ant-Design-Vue - 1.x
-  * Typescript 4.x
-     
-## 安装
+## 安装依赖
 ```
-npm install @ctsj/doc --save-dev
+npm install
 ```
 ```
-yarn install @ctsj/doc
+yarn
 ```
 
-## 使用
-* 创建React工程模板
+## 启动
 ```
-ctd create -t react -n yarn -d HelloWord
-```
-
-* 创建Vue工程模板
-```
-ctd create -t vue -n yarn -d HelloWord
+npm run startapp
 ```
 
-* 进入/启动
-```
-> cd HelloWord
-> npm run startapp
-```
-
-* 构建
+## 构建
 ```
 npm run buildapp
 ```
 
-## CLI
-&ensp;&ensp; 使用ctd create创建工程
-* -t --type 创建工程模板的类型 [react | vue]
-* -n --npmClient 使用的npmClient [npm | yarn] 默认是yarn
-* -d --directory 创建工程的目录 支持相对路径和绝对路径
-  
 ## 开发
  * React开发
    * 工程目录介绍  
@@ -126,7 +96,5 @@ npm run buildapp
          * cssModules=true 是否启用cssModel
          * static=assets 静态目录名称
      * lint-* eslint相关命令
-         
- * Vue开发
 
 
