@@ -14,7 +14,7 @@ function isWin32() {
  */
 function createTag() {
   return new Promise((resolve) => {
-    const cmd = isWin32() ? 'git.cmd' : 'git';
+    const cmd = 'git';
 
     const tagName = `v${packageJSON.version}`;
 
@@ -31,6 +31,10 @@ function createTag() {
 
     handler.stderr.on('data', (data) => {
       console.log(`stderr: ${data}`);
+    });
+
+    handler.on('close', () => {
+      resolve();
 
       console.log(`push ${tagName} tag origin`);
 
@@ -45,6 +49,9 @@ function createTag() {
 
       handler.stderr.on('data', (data) => {
         console.log(`stderr: ${data}`);
+      });
+
+      handler.on('close', () => {
         console.log(`push ${tagName} tag origin finish`);
         resolve();
       });
@@ -73,6 +80,10 @@ function publish() {
 
     handler.stderr.on('data', (data) => {
       console.log(`stderr: ${data}`);
+    });
+
+    handler.on('close', (code) => {
+      console.log(`close：${code}`);
       console.log('publish npm finish');
       resolve();
     });
@@ -101,6 +112,10 @@ function archive() {
 
     handler.stderr.on('data', (data) => {
       console.log(`stderr: ${data}`);
+    });
+
+    handler.on('close', (code) => {
+      console.log(`close：${code}`);
       console.log('create archive finish');
       resolve();
     });
