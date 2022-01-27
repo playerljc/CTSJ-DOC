@@ -1,4 +1,4 @@
-## CTSJ-DOC
+# CTSJ-DOC
 &ensp;&ensp;一个文档生成工具，分别包含React和Vue两套生成文档的工程模板
 
 * React工程模板  
@@ -30,7 +30,7 @@
   * Ant-Design-Vue - 1.x
   * Typescript 4.x
      
-## 安装
+# 安装
 ```
 npm install @ctsj/doc --save-dev
 ```
@@ -38,7 +38,7 @@ npm install @ctsj/doc --save-dev
 yarn install @ctsj/doc
 ```
 
-## 使用
+# 使用
 * 创建React工程模板
 ```
 ctd create -t react -n yarn -d HelloWord
@@ -60,13 +60,13 @@ ctd create -t vue -n yarn -d HelloWord
 npm run buildapp
 ```
 
-## CLI
+# CLI
 &ensp;&ensp; 使用ctd create创建工程
 * -t --type 创建工程模板的类型 [react | vue]
 * -n --npmClient 使用的npmClient [npm | yarn] 默认是yarn
 * -d --directory 创建工程的目录 支持相对路径和绝对路径
   
-## 开发
+# 开发
  * React开发
    * 工程目录介绍  
    
