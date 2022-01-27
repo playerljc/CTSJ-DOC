@@ -30,6 +30,10 @@ function createZip(zip, rootPath) {
   });
 }
 
+/**
+ * createArchiveZip
+ * @description - 创建zip文件
+ */
 function createArchiveZip() {
   const dirs = fs.readdirSync(templatesPath);
 
