@@ -2,7 +2,6 @@ import React from 'react';
 import { Typography } from 'antd';
 
 import Playground from '@/lib/Playground';
-import PlayGroundMulit from '@/lib/PlayGroundMulit';
 import ScrollFooterPanel from '@/lib/ScrollFooterPanel';
 
 import styles from './introduction.less';
@@ -17,12 +16,7 @@ class Introduction extends React.Component {
           <Typography>
             <Title level={2}>概述</Title>
             <Paragraph>
-              <Text>
-                这个工程中包含很多个 npm
-                包，这些包都是在平时工作中沉淀出来的一些可以高度复用的组件，有 UI
-                相关、功能相关、GIS 相关,使用的是 React 技术，有的可能是对
-                ant-design(还有其他第三方的库)的二次封装
-              </Text>
+              <Text>总体的介绍</Text>
             </Paragraph>
             <Title level={2}>兼容</Title>
             <Paragraph>
@@ -76,49 +70,6 @@ class Introduction extends React.Component {
     'ant',
   ],
               `}
-            />
-          </Typography>
-
-          <Typography className={styles.Margin}>
-            <Title level={2}>UMD使用</Title>
-            <Paragraph>
-              <p>
-                umd需要2处理，第一处是HTML模板中需要进行一些必要库umd的外部引入，第二处是需要在webpack中加入一些externals的设置
-              </p>
-              <p style={{ color: 'red' }}>
-                注意：使用umd的时候不能使用babel-plugin-import插件，webpack的alias中不能进行vue的设置
-              </p>
-            </Paragraph>
-            <PlayGroundMulit
-              mode="code"
-              scope={{ React }}
-              expand
-              config={[
-                {
-                  title: '模板HTML文件',
-                  codeText: `
-  <link href="https://cdn.jsdelivr.net/npm/antd@4.14.0/dist/antd.min.css" rel="stylesheet">
-  <link rel="stylesheet" href="/assets/umd/adhere.min.css">
-  <script src="https://momentjs.com/downloads/moment-with-locales.min.js" crossorigin></script>
-  <script src="https://cdn.jsdelivr.net/npm/react@17.0.1/umd/react.production.min.js" crossorigin></script>
-  <script src="https://cdn.jsdelivr.net/npm/react-dom@17.0.1/umd/react-dom.production.min.js" crossorigin></script>
-  <script src="https://cdn.jsdelivr.net/npm/antd@4.14.0/dist/antd.min.js"></script>
-  <script src="/assets/umd/adhere.bundle.js"></script>
-                `,
-                },
-                {
-                  title: 'webpack配置',
-                  codeText: `
-  webpackConfig.externals = {
-    '@baifendian/adhere': "adhere",
-    'antd': 'antd',
-    'react': 'React',
-    'react-dom':"ReactDOM",
-    'moment':'moment',
-  };
-                `,
-                },
-              ]}
             />
           </Typography>
         </div>

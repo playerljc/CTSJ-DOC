@@ -63,7 +63,7 @@ export default withRouter((props) => {
         </Menu>
       </div>
       <div className={styles.Fixed}>
-        <a href={packageJSON.repository.url}>
+        <a href={packageJSON.repository.url} target="_blank" rel="noopener noreferrer">
           <svg width="36" height="36" id="tanuki-logo">
             <path
               id="tanuki-right-ear"
