@@ -9,6 +9,8 @@ module.exports = {
   getConfig({ webpackConfig }) {
     webpackConfig.devtool = 'cheap-module-eval-source-map';
 
+    webpackConfig.module.rules[2].include.push(/nprogress.css/);
+
     // 加入markdown的解析
     webpackConfig.module.rules.push({
       test: /\.md$/,
