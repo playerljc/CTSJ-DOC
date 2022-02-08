@@ -1,7 +1,9 @@
 import React, { useState } from 'react';
 import { Menu } from 'antd';
 import { withRouter } from '@ctsj/router';
-import packageJSON from '../../../package.json';
+
+import SearchBar from '@/lib/SearchBar';
+import packageJSON from '../../../../../package.json';
 
 import styles from './index.less';
 
@@ -50,20 +52,26 @@ export default withRouter((props) => {
           <h1 style={{ margin: 0 }}>adhere({`v${packageJSON.version}`})</h1>
         </a>
       </div>
+
       <div className={styles.Auto}>
-        <Menu
-          selectedKeys={menuSelectKeys}
-          mode="horizontal"
-          className={styles.Menu}
-          onClick={onMenuChange}
-        >
-          {MenuItemsConfig.map((menuItemConfig) => (
-            <Menu.Item key={menuItemConfig.key}>{menuItemConfig.name}</Menu.Item>
-          ))}
-        </Menu>
+        <div className={styles.Inner}>
+          <SearchBar />
+
+          <Menu
+            selectedKeys={menuSelectKeys}
+            mode="horizontal"
+            className={styles.Menu}
+            onClick={onMenuChange}
+          >
+            {MenuItemsConfig.map((menuItemConfig) => (
+              <Menu.Item key={menuItemConfig.key}>{menuItemConfig.name}</Menu.Item>
+            ))}
+          </Menu>
+        </div>
       </div>
+
       <div className={styles.Fixed}>
-        <a href={packageJSON.repository.url} target="_blank" rel="noopener noreferrer">
+        <a href={packageJSON.repository.url}>
           <svg width="36" height="36" id="tanuki-logo">
             <path
               id="tanuki-right-ear"
