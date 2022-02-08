@@ -53,14 +53,14 @@
     "stylelint": "^13.13.1"
   },
   "dependencies": {
-    "core-js": "^3.6.5",
-    "@ant-design/icons": "^4.4.0",
-    "@baifendian/adhere": "^1.0.14",
-    "@ctsj/router": "^1.0.1",
-    "@ctsj/state": "^2.0.21",
+    "core-js": "^3.21.0",
+    "@ant-design/icons": "^4.7.0",
+    "@baifendian/adhere": "^1.0.14-fix.0",
+    "@ctsj/router": "^1.0.3",
+    "@ctsj/state": "^2.0.23",
     "antd": "^4.9.4",
     "bmap-wind": "^1.1.1-alpha.2",
-    "classnames": "^2.2.6",
+    "classnames": "^2.3.1",
     "component-playground": "^3.2.1",
     "copy-to-clipboard": "^3.3.1",
     "echarts": "^5.1.1",
@@ -76,6 +76,7 @@
     "react-markdown": "^7.0.1",
     "remark-gfm": "^2.0.0",
     "uuid": "^8.3.2",
-    "nprogress": "^0.2.0"
+    "nprogress": "^0.2.0",
+    "mark.js": "^8.11.1"
   }
 }
