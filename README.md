@@ -109,6 +109,11 @@ npm run buildapp
        * ScrollFooterPanel - 带有Footer可滚动的面板
        * BasicLayout - 左侧二级菜单右侧路由切换面板(根据路由配置动态生成)
        * Router - 路由配置整合
+       * SearchBar - 头部搜索组件(用于进行全文检索)
+         * index.json - 索引文件
+           * kw - 进行搜索的关键字
+           * group - 组名称
+           * path - 路由地址
      * app.jsx - 顶级路由组件
      * changelog.jsx - changelog组件
      * CHANGELOG.md - CHANGELOG的markdown
