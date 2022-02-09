@@ -63,7 +63,7 @@ import {
   FontSizeSetting,
   JdCategoryTab,
   ImageLazy,
-  BMap,
+  // BMap,
   PlayGround,
   ContextMenu,
   GlobalIndicator,
@@ -161,7 +161,7 @@ const register = [
     FontSizeSetting.use(Vue);
     JdCategoryTab.use(Vue);
     ImageLazy.use(Vue);
-    BMap.use(Vue);
+    // BMap.use(Vue);
     PlayGround.use(Vue);
     ContextMenu.use(Vue);
     GlobalIndicator.use(Vue);
