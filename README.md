@@ -78,7 +78,7 @@ npm run buildapp
 * -d --directory 创建工程的目录 支持相对路径和绝对路径
   
 # 开发
- * React开发
+ * ### React开发
    * 工程目录介绍  
    
    | 目录/文件     | 简介 |
@@ -142,7 +142,7 @@ npm run buildapp
          * static=assets 静态目录名称
      * lint-* eslint相关命令
          
- * Vue开发
+ * ### Vue开发
    * 工程目录介绍
    
    | 目录/文件     | 简介 |
