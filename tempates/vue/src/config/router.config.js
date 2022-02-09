@@ -97,7 +97,6 @@ const JDCategoryTab = () =>
   lazy(import(/* webpackChunkName: "jdcategorytab" */ '@/components/ui/jdcategorytab'));
 const ImageLazy = () =>
   lazy(import(/* webpackChunkName: "imagelazy" */ '@/components/ui/imagelazy'));
-const BMap = () => lazy(import(/* webpackChunkName: "bmap" */ '@/components/ui/bmap'));
 const PolygonSelection = () =>
   lazy(import(/* webpackChunkName: "polygonselection" */ '@/components/ui/polygonselection'));
 const Domain = () => lazy(import(/* webpackChunkName: "domain" */ '@/components/util/domain'));
@@ -345,11 +344,6 @@ export default () => [
                 path: '/adherev/component/ui/polygonselection',
                 name: 'PolygonSelection',
                 component: PolygonSelection,
-              },
-              {
-                path: '/adherev/component/ui/bmap',
-                name: 'BMap',
-                component: BMap,
               },
             ],
           },
