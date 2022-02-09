@@ -30,7 +30,7 @@
     "type": "git",
     "url": "https://github.com/playerljc/CTSJ-DOC.git"
   },
-  "author": "playerljc",
+  "author": "playerljc <playerljc@163.com>",
   "license": "ISC",
   "devDependencies": {
     "@babel/runtime": "^7.7.4",
