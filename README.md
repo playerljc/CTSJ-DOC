@@ -46,7 +46,7 @@
 npm install @ctsj/doc --save-dev
 ```
 ```
-yarn install @ctsj/doc
+yarn add @ctsj/doc
 ```
 
 # 使用
