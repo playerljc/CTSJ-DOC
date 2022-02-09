@@ -43,7 +43,7 @@
      
 # 安装
 ```
-npm install @ctsj/doc --save-dev
+npm install @ctsj/doc
 ```
 ```
 yarn add @ctsj/doc
