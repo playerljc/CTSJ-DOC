@@ -166,7 +166,7 @@
 </template>
 
 <script>
-import packageJSON from '../../../../../package.json';
+import packageJSON from '../../../package.json';
 
 export default {
   computed: {
