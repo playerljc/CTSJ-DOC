@@ -68,7 +68,7 @@ ctd create -t vue -n yarn -d HelloWord
 
 * 构建
 ```
-npm run buildapp
+> npm run buildapp
 ```
 
 # CLI
