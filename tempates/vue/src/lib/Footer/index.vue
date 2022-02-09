@@ -78,65 +78,6 @@
                 </li>
               </ul>
             </li>
-            <li :class="$style.ItemListItem">
-              模板工程
-              <ul>
-                <li>
-                  <a
-                    href="https://gitee.com/playerljc/ReactPro/tree/adhere"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    ReactPro(G1)
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href="https://gitee.com/playerljc/ReactPro/tree/polyfill"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    ReactPro(G1)(支持IE)
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href="https://gitee.com/playerljc/AntPro"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    AntPro(G1)
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href="http://git.baifendian.com/dongxu.guo/ReactWeb"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    ReactWeb(G3)
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href="http://git.baifendian.com/bo.li/Percent_Vue_Admin.git"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    PercentVue(G3)
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href="https://gitee.com/playerljc/VuePro"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    VuePro(G1)
-                  </a>
-                </li>
-              </ul>
-            </li>
           </ul>
         </dd>
       </dl>
