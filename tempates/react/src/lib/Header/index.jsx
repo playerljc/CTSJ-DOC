@@ -3,7 +3,7 @@ import { Menu } from 'antd';
 import { withRouter } from '@ctsj/router';
 
 import SearchBar from '@/lib/SearchBar';
-import packageJSON from '../../../../../package.json';
+import packageJSON from '../../../package.json';
 
 import styles from './index.less';
 
