@@ -99,6 +99,8 @@ const ImageLazy = () =>
   lazy(import(/* webpackChunkName: "imagelazy" */ '@/components/ui/imagelazy'));
 const PolygonSelection = () =>
   lazy(import(/* webpackChunkName: "polygonselection" */ '@/components/ui/polygonselection'));
+const PlayGround = () =>
+  lazy(import(/* webpackChunkName: "playground" */ '@/components/ui/playground'));
 const Domain = () => lazy(import(/* webpackChunkName: "domain" */ '@/components/util/domain'));
 const Resource = () =>
   lazy(import(/* webpackChunkName: "resource" */ '@/components/util/resource'));
@@ -344,6 +346,11 @@ export default () => [
                 path: '/adherev/component/ui/polygonselection',
                 name: 'PolygonSelection',
                 component: PolygonSelection,
+              },
+              {
+                path: '/adherev/component/ui/PlayGround',
+                name: 'PlayGround',
+                component: PlayGround,
               },
             ],
           },
