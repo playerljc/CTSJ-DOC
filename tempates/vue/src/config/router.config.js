@@ -111,6 +111,9 @@ const Validator = () =>
 
 const Demo = () => lazy(import(/* webpackChunkName: "demo" */ '@/components/ui/demo'));
 
+const Echarts = () =>
+  lazy(import(/* webpackChunkName: "echarts" */ '@/components/gallery/echarts'));
+
 export default () => [
   {
     path: '/',
@@ -129,6 +132,21 @@ export default () => [
         path: '/adherev/changelog',
         name: '更新日志',
         component: Changelog,
+      },
+      {
+        path: '/adherev/gallery',
+        component: BasicLayout,
+        children: [
+          {
+            path: '/',
+            redirect: '/adherev/gallery/echarts',
+          },
+          {
+            path: '/adherev/gallery/echarts',
+            name: 'Echarts',
+            component: Echarts,
+          },
+        ],
       },
       {
         path: '/adherev/component',
