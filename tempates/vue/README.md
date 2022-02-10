@@ -3,7 +3,7 @@
 * 使用 **[vue-router](https://router.vuejs.org/zh/)** 做路由跳转
 * 使用 **[ant-design-vue](https://www.antdv.com/docs/vue/introduce-cn/)** 做UI
 * 使用 **[@baifendian/adherev-ui-playground](https://www.npmjs.com/package/@baifendian/adherev-ui-playground)** 作为代码展示组件，
-具体请参考[线上例子](http://49.232.163.126:8084/adherev/component/ui/demo)
+具体请参考[线上例子](http://49.232.163.126:8084/adherev/component/ui/demo), 配置请[参考](http://49.232.163.126:8084/adherev/component/ui/playground)
   * AnchorNavigation - 带有锚点导航的面板
   * CodeBoxPanel - 代码展示组面板(可包含Playground、PlayGroundTab和PlaygroundMulit)
   * CodePanel - 单个代码显示面板
