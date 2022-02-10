@@ -34,8 +34,6 @@ function createTag() {
     });
 
     handler.on('close', () => {
-      resolve();
-
       console.log(`push ${tagName} tag origin`);
 
       handler = spawn(cmd, ['push', 'origin', tagName], {
@@ -69,7 +67,7 @@ function publish() {
     const cmd = isWin32() ? 'npm.cmd' : 'npm';
 
     console.log('publish npm');
-    const handler = spawn(cmd, ['publish', 'access=public'], {
+    const handler = spawn(cmd, ['publish', '--access=public'], {
       cwd: runtimePath,
       encoding: 'utf-8',
     });
