@@ -13,7 +13,7 @@
   "scripts": {
     "generatorchangelog": "bd changelog/CHANGELOG.html",
     "archive": "node ./script/archive.js",
-    "publish": "node ./script/publish.js"
+    "publish:release": "node ./script/publish.js"
   },
   "keywords": [],
   "author": "playerljc <playerljc@163.com>",
