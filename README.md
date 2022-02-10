@@ -1,207 +1,221 @@
 # CTSJ-DOC
-&ensp;&ensp;一个文档生成工具，分别包含React和Vue两套生成文档的工程模板
 
-* React工程模板  
-  * 使用 **[@ctsj/build](https://www.npmjs.com/package/@ctsj/build)** 进行构建
-  * 使用 **[@ctsj/router](https://www.npmjs.com/package/@ctsj/router)** 做路由跳转
-  * 使用 **[ant-design](https://ant.design/)** 做UI
-  * 使用 **[@baifendian/adhere-ui-playground](https://www.npmjs.com/package/@baifendian/adhere-ui-playground)** 作为代码展示组件，
-  具体请参考[线上例子](http://49.232.163.126:8083/adhere/component/ui/demo) , 配置请[参考](http://49.232.163.126:8083/adhere/component/ui/playground)
-    * AnchorNavigation - 带有锚点导航的面板
-    * CodeBoxPanel - 代码展示组面板(可包含Playground、PlayGroundTab和PlaygroundMulit)
-    * CodePanel - 单个代码显示面板
-    * CodeTabPanel - 带有选项卡切换的代码显示面板
-    * FunctionProps - 函数说明面板
-    * Props - React的Props说明面板
-    * Playground - 基本的代码和例子展示面板(包含CodePanel)
-    * PlayGroundTab - 带有选项卡切换的代码和例子展示面板(包含CodeTabPanel)
-    * PlaygroundMulit - 多代码和例子展示面板(包含Playground和PlaygroundMulit)
-    * PlaygroundPage - 包含AnchorNavigation和CodeBoxPanel
-  * React - 17.x
-  * Ant-Design - 4.x
-  * Typescript 4.x
- 
-* Vue工程模板
-  * 使用 **[@ctsj/buildv](https://www.npmjs.com/package/@ctsj/buildv)** 进行构建
-  * 使用 **[vue-router](https://router.vuejs.org/zh/)** 做路由跳转
-  * 使用 **[ant-design-vue](https://www.antdv.com/docs/vue/introduce-cn/)** 做UI
-  * 使用 **[@baifendian/adherev-ui-playground](https://www.npmjs.com/package/@baifendian/adherev-ui-playground)** 作为代码展示组件，
-  具体请参考[线上例子](http://49.232.163.126:8084/adherev/component/ui/demo), 配置请[参考](http://49.232.163.126:8084/adherev/component/ui/playground)
-    * AnchorNavigation - 带有锚点导航的面板
-    * CodeBoxPanel - 代码展示组面板(可包含Playground、PlayGroundTab和PlaygroundMulit)
-    * CodePanel - 单个代码显示面板
-    * CodeTabPanel - 带有选项卡切换的代码显示面板
-    * FunctionProps - 函数说明面板
-    * Props - React的Props说明面板
-    * Playground - 基本的代码和例子展示面板(包含CodePanel)
-    * PlayGroundTab - 带有选项卡切换的代码和例子展示面板(包含CodeTabPanel)
-    * PlaygroundMulit - 多代码和例子展示面板(包含Playground和PlaygroundMulit)
-    * PlaygroundPage - 包含AnchorNavigation和CodeBoxPanel
-  * Vue - 2.x
-  * Ant-Design-Vue - 1.x
-  * Typescript 4.x
-     
-# 安装
+English | [简体中文](./README-zh_CN.md)
+
+A document generation tool, including two sets of project templates for generating documents, React and Vue respectively
+
+React project template
+
+  - Build with **[@ctsj/build](https://www.npmjs.com/package/@ctsj/build)**
+  - Use **[@ctsj/router](https://www.npmjs.com/package/@ctsj/router)** for routing jump
+  - Use **[ant-design](https://ant.design/)** for UI
+  - Use **[@baifendian/adhere-ui-playground](https://www.npmjs.com/package/@baifendian/adhere-ui-playground)** as the code display component, For details, please refer to [Online Example](http://49.232.163.126:8083/adhere/component/ui/demo), and for configuration, please [Reference](http://49.232.163.126:8083/adhere/component/ui/ playground)
+    - AnchorNavigation - panel with anchor navigation
+    - CodeBoxPanel - code display group panel (can include Playground, PlayGroundTab and PlaygroundMulit)
+    - CodePanel - single code display panel
+    - CodeTabPanel - Code display panel with tab switching
+    - FunctionProps - function description panel
+    - Props - Props description panel for React
+    - Playground - basic code and example display panel (including CodePanel)
+    - PlayGroundTab - Code and example display panel with tab switching (includes CodeTabPanel)
+    - PlaygroundMulit - Multiple code and example display panels (including Playground and PlaygroundMulit)
+    - PlaygroundPage - contains AnchorNavigation and CodeBoxPanel
+  - React-17.x
+  - Ant-Design-4.x \*Typescript 4.x
+
+Vue project template
+  - Build with **[@ctsj/buildv](https://www.npmjs.com/package/@ctsj/buildv)**
+  - Use **[vue-router](https://router.vuejs.org/zh/)** for routing jump
+  - Use **[ant-design-vue](https://www.antdv.com/docs/vue/introduce-cn/)** for UI
+  - Use **[@baifendian/adherev-ui-playground](https://www.npmjs.com/package/@baifendian/adherev-ui-playground)** as the code display component, For details, please refer to [Online Example](http://49.232.163.126:8084/adherev/component/ui/demo), and for configuration, please [Reference](http://49.232.163.126:8084/adherev/component/ui/ playground)
+    - AnchorNavigation - panel with anchor navigation
+    - CodeBoxPanel - code display group panel (can include Playground, PlayGroundTab and PlaygroundMulit)
+    - CodePanel - single code display panel
+    - CodeTabPanel - Code display panel with tab switching
+    - FunctionProps - function description panel
+    - Props - Props description panel for React
+    - Playground - basic code and example display panel (including CodePanel)
+    - PlayGroundTab - Code and example display panel with tab switching (includes CodeTabPanel)
+    - PlaygroundMulit - Multiple code and example display panels (including Playground and PlaygroundMulit)
+    - PlaygroundPage - contains AnchorNavigation and CodeBoxPanel
+  - Vue-2.x
+  - Ant-Design-Vue-1.x \*Typescript 4.x
+
+# Install
+
 ```
 npm install @ctsj/doc
 ```
+
 ```
 yarn add @ctsj/doc
 ```
 
-# 使用
-* 创建React工程模板
+# use
+
+- Create React project template
+
 ```
-ctd create -t react -n yarn -d HelloWord
+ctd create -t ​​react -n yarn -d HelloWord
 ```
 
-* 创建Vue工程模板
+- Create Vue project template
+
 ```
-ctd create -t vue -n yarn -d HelloWord
+ctd create -t ​​vue -n yarn -d HelloWord
 ```
 
-* 进入/启动
+- enter/start
+
 ```
 > cd HelloWord
 > npm run startapp
 ```
 
-* 构建
+- Construct
+
 ```
 > npm run buildapp
 ```
 
 # CLI
-&ensp;&ensp; 使用ctd create创建工程
-* -t --type 创建工程模板的类型 [react | vue]
-* -n --npmClient 使用的npmClient [npm | yarn] 默认是yarn
-* -d --directory 创建工程的目录 支持相对路径和绝对路径
-  
-# 开发
- * ### React开发
-   * 工程目录介绍  
-   
-   | 目录/文件     | 简介 |
-   | ----------- | ----------- |
-   | assets      | 静态目录 |
-   | src   | 源码目录 |
-   | themes   | 主题目录 |
-   | .browserslistrc | browserslistrc配置|
-   | .editorconfig | editorconfig配置|
-   | .eslintrc.js | eslint配置|
-   | .prettierrc.js | prettierrc配置|
-   | .stylelintrc.js | stylelintrc配置|
-   | ctbuild.config.js | 构建(webpack)配置|
-   | jsconfig.json | jsconfig.json配置|
-   | package.json | 项目配置|
-   | tsconfig.json | typescript配置|
-   
-   * src目录简介
-     * components - 系统级别组件现在分为gallery、ui、util可以自行定义
-     * config - 配置
-       * dict - 字典目录
-       * dict.config.js - 字典配置
-       * router.config.js - 路由配置
-     * lib - 支撑系统的lib
-       * AnchorNavigation - 带有锚点导航的面板
-       * CodeBoxPanel - 代码展示组面板(可包含Playground、PlayGroundTab和PlaygroundMulit)
-       * CodePanel - 单个代码显示面板
-       * CodeTabPanel - 带有选项卡切换的代码显示面板
-       * FunctionProps - 函数说明面板
-       * Props - React的Props说明面板
-       * Playground - 基本的代码和例子展示面板(包含CodePanel)
-       * PlayGroundTab - 带有选项卡切换的代码和例子展示面板(包含CodeTabPanel)
-       * PlaygroundMulit - 多代码和例子展示面板(包含Playground和PlaygroundMulit)
-       * PlaygroundPage - 包含AnchorNavigation和CodeBoxPanel
-       * Header - 头(包含一级菜单信息)
-       * Footer - 脚(包含有外连接信息)
-       * GalleryLayout - 代码段展示面板
-       * ScrollFooterPanel - 带有Footer可滚动的面板
-       * BasicLayout - 左侧二级菜单右侧路由切换面板(根据路由配置动态生成)
-       * Router - 路由配置整合
-       * SearchBar - 头部搜索组件(用于进行全文检索)
-         * index.json - 索引文件
-           * kw - 进行搜索的关键字
-           * group - 组名称
-           * path - 路由地址
-     * app.jsx - 顶级路由组件
-     * changelog.jsx - changelog组件
-     * CHANGELOG.md - CHANGELOG的markdown
-     * introduction.jsx - 简介组件
-     * index.html - html模板文件
-     * index.js - 第一个执行的js文件
-     * index.less - 总体的less文件
-   
-   * package.json说明
-     * startapp命令 - 启动工程
-     * buildapp命令 - 构建工程
-       * --define参数
-         * alias=@ webpack别名设置@为src目录地址
-         * envVars=true process中混入env变量额值
-         * cssModules=true 是否启用cssModel
-         * static=assets 静态目录名称
-     * lint-* eslint相关命令
-         
- * ### Vue开发
-   * 工程目录介绍
-   
-   | 目录/文件     | 简介 |
-      | ----------- | ----------- |
-      | assets      | 静态目录 |
-      | src   | 源码目录 |
-      | themes   | 主题目录 |
-      | .browserslistrc | browserslistrc配置|
-      | .editorconfig | editorconfig配置|
-      | .eslintrc.js | eslint配置|
-      | .prettierrc.js | prettierrc配置|
-      | .stylelintrc.js | stylelintrc配置|
-      | ctbuildv.config.js | 构建(webpack)配置|
-      | jsconfig.json | jsconfig.json配置|
-      | package.json | 项目配置|
-      | tsconfig.json | typescript配置|
-      
-   * src目录简介
-     * components - 系统级别组件现在分为gallery、ui、util可以自行定义
-     * config - 配置
-       * component.register.config.js - Vue全局组件和插件的注册
-       * router.config.js - 路由配置
-     * lib - 支撑系统的lib
-       * AnchorNavigation - 带有锚点导航的面板
-       * CodeBoxPanel - 代码展示组面板(可包含Playground、PlayGroundTab和PlaygroundMulit)
-       * CodePanel - 单个代码显示面板
-       * CodeTabPanel - 带有选项卡切换的代码显示面板
-       * FunctionProps - 函数说明面板
-       * Props - React的Props说明面板
-       * Playground - 基本的代码和例子展示面板(包含CodePanel)
-       * PlayGroundTab - 带有选项卡切换的代码和例子展示面板(包含CodeTabPanel)
-       * PlaygroundMulit - 多代码和例子展示面板(包含Playground和PlaygroundMulit)
-       * PlaygroundPage - 包含AnchorNavigation和CodeBoxPanel
-       * Header - 头(包含一级菜单信息)
-       * Footer - 脚(包含有外连接信息)
-       * GalleryLayout - 代码段展示面板
-       * ScrollFooterPanel - 带有Footer可滚动的面板
-       * BasicLayout - 左侧二级菜单右侧路由切换面板(根据路由配置动态生成)
-       * Router - 路由配置整合
-       * SearchBar - 头部搜索组件(用于进行全文检索)
-         * index.json - 索引文件
-           * kw - 进行搜索的关键字
-           * group - 组名称
-           * path - 路由地址
-     * app.vue - 顶级路由组件
-     * changelog.vue - changelog组件
-     * CHANGELOG.md - CHANGELOG的markdown
-     * introduction.vue - 简介组件
-     * index.html - html模板文件
-     * index.ts - 第一个执行的js文件
-     * index.less - 总体的less文件
-         
-   * package.json说明
-     * startapp命令 - 启动工程
-     * buildapp命令 - 构建工程
-       * --define参数
-         * alias=@ webpack别名设置@为src目录地址
-         * envVars=true process中混入env变量额值
-         * cssModules=true 是否启用cssModel
-         * static=assets 静态目录名称
-         * runtimeCompiler=true 是否动态编译Vue的template模板
-     * lint-* eslint相关命令
+
+&ensp;&ensp; Use ctd create to create a project
+
+- -t --type Create the type of project template [react | vue]
+- -n --npmClient The npmClient [npm | yarn] used by npmClient is yarn by default
+- -d --directory The directory where the project is created Supports relative and absolute paths
+
+# develop
+
+- ### React development
+
+  - Project catalog introduction
+
+  | Contents/Files    | Introduction                  |
+  | ----------------- | ----------------------------- |
+  | assets            | static directory              |
+  | src               | Source directory              |
+  | themes            | Theme Directory               |
+  | .browserslistrc   | browserslistrc configuration  |
+  | .editorconfig     | editorconfig configuration    |
+  | .eslintrc.js      | eslint configuration          |
+  | .prettierrc.js    | prettierrc configuration      |
+  | .stylelintrc.js   | stylelintrc configuration     |
+  | ctbuild.config.js | build (webpack) configuration |
+  | jsconfig.json     | jsconfig.json configuration   |
+  | package.json      | Project configuration         |
+  | tsconfig.json     | typescript configuration      |
+
+  - Introduction to the src directory
+
+    - components - system-level components are now divided into gallery, ui, util and can be defined by themselves
+    - config - configure
+      - dict - directory of dictionaries
+      - dict.config.js - dictionary configuration
+      - router.config.js - routing configuration
+    - lib - the lib that supports the system
+      - AnchorNavigation - panel with anchor navigation
+      - CodeBoxPanel - code display group panel (can include Playground, PlayGroundTab and PlaygroundMulit)
+      - CodePanel - single code display panel
+      - CodeTabPanel - Code display panel with tab switching
+      - FunctionProps - function description panel
+      - Props - Props description panel for React
+      - Playground - basic code and example display panel (including CodePanel)
+      - PlayGroundTab - Code and example display panel with tab switching (includes CodeTabPanel)
+      - PlaygroundMulit - Multiple code and example display panels (including Playground and PlaygroundMulit)
+      - PlaygroundPage - contains AnchorNavigation and CodeBoxPanel
+      - Header - header (including first-level menu information)
+      - Footer - foot (contains external connection information)
+      - GalleryLayout - code snippet display panel
+      - ScrollFooterPanel - scrollable panel with Footer
+      - BasicLayout - routing switch panel on the right side of the secondary menu on the left (dynamically generated according to the routing configuration)
+      - Router - routing configuration integration
+      - SearchBar - head search component (for full text search)
+        - index.json - index file
+          - kw - keyword to search for
+          - group - group name
+          - path - routing address
+    - app.jsx - the top-level routing component
+    - changelog.jsx - changelog component
+    - CHANGELOG.md - markdown for CHANGELOG
+    - introduction.jsx - the introduction component
+    - index.html - html template file
+    - index.js - the first js file to execute
+    - index.less - overall less file
+
+  - package.json description
+    - startapp command - start the project
+    - buildapp command - build the project
+      - --define parameter
+        - alias=@ webpack alias set @ is the src directory address
+        - envVars=true The env variable value is mixed into the process
+        - cssModules=true whether to enable cssModel
+        - static=assets static directory name
+    - lint-\* eslint related commands
+
+- ### Vue development
+
+  - Project catalog introduction
+
+  | Contents/Files     | Introduction                  |
+  | ------------------ | ----------------------------- |
+  | assets             | static directory              |
+  | src                | Source directory              |
+  | themes             | Theme Directory               |
+  | .browserslistrc    | browserslistrc configuration  |
+  | .editorconfig      | editorconfig configuration    |
+  | .eslintrc.js       | eslint configuration          |
+  | .prettierrc.js     | prettierrc configuration      |
+  | .stylelintrc.js    | stylelintrc configuration     |
+  | ctbuildv.config.js | build (webpack) configuration |
+  | jsconfig.json      | jsconfig.json configuration   |
+  | package.json       | Project configuration         |
+  | tsconfig.json      | typescript configuration      |
+
+  - Introduction to the src directory
+
+    - components - system-level components are now divided into gallery, ui, util and can be defined by themselves
+    - config - configure
+      - component.register.config.js - registration of Vue global components and plugins
+      - router.config.js - routing configuration
+    - lib - the lib that supports the system
+      - AnchorNavigation - panel with anchor navigation
+      - CodeBoxPanel - code display group panel (can include Playground, PlayGroundTab and PlaygroundMulit)
+      - CodePanel - single code display panel
+      - CodeTabPanel - Code display panel with tab switching
+      - FunctionProps - function description panel
+      - Props - Props description panel for React
+      - Playground - basic code and example display panel (including CodePanel)
+      - PlayGroundTab - Code and example display panel with tab switching (includes CodeTabPanel)
+      - PlaygroundMulit - Multiple code and example display panels (including Playground and PlaygroundMulit)
+      - PlaygroundPage - contains AnchorNavigation and CodeBoxPanel
+      - Header - header (including first-level menu information)
+      - Footer - foot (contains external connection information)
+      - GalleryLayout - code snippet display panel
+      - ScrollFooterPanel - scrollable panel with Footer
+      - BasicLayout - routing switch panel on the right side of the secondary menu on the left (dynamically generated according to the routing configuration)
+      - Router - routing configuration integration
+      - SearchBar - head search component (for full text search)
+        - index.json - index file
+          - kw - keyword to search for
+          - group - group name
+          - path - routing address
+    - app.vue - the top-level routing component
+    - changelog.vue - changelog component
+    - CHANGELOG.md - markdown for CHANGELOG
+    - introduction.vue - the introduction component
+    - index.html - html template file
+    - index.ts - the first js file to execute
+    - index.less - overall less file
+
+  - package.json description
+    - startapp command - start the project
+    - buildapp command - build the project
+      - --define parameter
+        - alias=@ webpack alias set @ is the src directory address
+        - envVars=true The env variable value is mixed into the process
+        - cssModules=true whether to enable cssModel
+        - static=assets static directory name
+        - runtimeCompiler=true whether to dynamically compile Vue's template template
+    - lint-\* eslint related commands
