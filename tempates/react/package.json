@@ -55,7 +55,7 @@
   "dependencies": {
     "core-js": "^3.21.0",
     "@ant-design/icons": "^4.7.0",
-    "@baifendian/adhere": "^1.0.14-fix.0",
+    "@baifendian/adhere": "^1.0.14-fix.1",
     "@ctsj/router": "^1.0.3",
     "@ctsj/state": "^2.0.23",
     "antd": "^4.9.4",
