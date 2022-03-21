@@ -122,8 +122,8 @@ function archive() {
 
 archive().then(() => {
   createTag().then(() => {
-    publish().then(() => {
-      process.exit();
-    });
+    // publish().then(() => {
+    //   process.exit();
+    // });
   });
 });

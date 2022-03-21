@@ -1092,33 +1092,6 @@
     "@babel/helper-validator-identifier" "^7.16.7"
     to-fast-properties "^2.0.0"
 
-"@baifendian/adhere-ui-bmap@^1.0.14-fix.0":
-  version "1.0.14-fix.0"
-  resolved "https://registry.yarnpkg.com/@baifendian/adhere-ui-bmap/-/adhere-ui-bmap-1.0.14-fix.0.tgz#5774ba94ba15fa7ff1988612d0567d951eba7ad8"
-  integrity sha512-Pi7WwoAfMiY6DnAFU/Id+kBn7qVUX5FqRSCwhsthfJsVfCjOYgDn6c7LmLBT1NOXztVMxQGGv4UEcxRqlKQ16Q==
-  dependencies:
-    "@baifendian/adhere-ui-conditionalrender" "^1.0.14"
-    "@baifendian/adhere-util" "^1.0.14-fix.0"
-    "@baifendian/adhere-util-emitter" "^1.0.14"
-    "@baifendian/adhere-util-intl" "^1.0.14"
-    "@turf/turf" "^6.5.0"
-    "@types/react" "^17.0.0"
-    "@types/react-dom" "^17.0.0"
-    bmap-wind "^1.1.1-alpha.2"
-    classnames "^2.3.1"
-    react "^17.0.1"
-    react-dom "^17.0.1"
-
-"@baifendian/adhere-ui-conditionalrender@^1.0.14":
-  version "1.0.14"
-  resolved "https://registry.yarnpkg.com/@baifendian/adhere-ui-conditionalrender/-/adhere-ui-conditionalrender-1.0.14.tgz#8e1d64aa8f9e9a182c3ce1ace156a957df39b5cc"
-  integrity sha512-xr3mAN2ta/uT/hOqNPUDik02tXCnaviSQu0K1YhZNysqQSCdGFTtPammngC8UrdQrSBOe411uPK5tlqUwjj/Ew==
-  dependencies:
-    "@types/react" "^17.0.0"
-    "@types/react-dom" "^17.0.0"
-    react "^17.0.1"
-    react-dom "^17.0.1"
-
 "@baifendian/adhere-ui-css@^1.0.14":
   version "1.0.14"
   resolved "https://registry.yarnpkg.com/@baifendian/adhere-ui-css/-/adhere-ui-css-1.0.14.tgz#78c983d2c2731d4a18f988b05e8fef1052ea1617"
@@ -1129,12 +1102,12 @@
   resolved "https://registry.yarnpkg.com/@baifendian/adhere-ui-historyback/-/adhere-ui-historyback-1.0.14.tgz#75a67848a15c63dc8f49a202299b86cec6df5886"
   integrity sha512-uqaNMJffGNX+kTFJTdjhvJtoGRaBUoEOU+BuzjoLHEzxKfvG5TquM/Zz8yX1IuPCjIHtfyUFVto3UC49U0MAmQ==
 
-"@baifendian/adhere-ui-polygonselection@^1.0.14-fix.0":
-  version "1.0.14-fix.0"
-  resolved "https://registry.yarnpkg.com/@baifendian/adhere-ui-polygonselection/-/adhere-ui-polygonselection-1.0.14-fix.0.tgz#4859e93ac2ff7671f7d4bc4c06733364cdef919e"
-  integrity sha512-lgA9hkKJWsxo8Hh0zCNaErMCtT5iGcugZtmshkTzWTlLiR3+GG4/e/k+g6KqG0tjtRvsWJ9tzqeNszyOaBB3HQ==
+"@baifendian/adhere-ui-polygonselection@^1.0.14-fix.1":
+  version "1.0.14-fix.1"
+  resolved "https://registry.yarnpkg.com/@baifendian/adhere-ui-polygonselection/-/adhere-ui-polygonselection-1.0.14-fix.1.tgz#16b7341dc65188262dfe346460313f483d7772f0"
+  integrity sha512-CBnU77MfAKO4pTM6gQD1+9YnbltmHggeSHpWtf58TEZY/PfRZtjJelpQSqHEE65LMQ+27CLR+4yJIHt5S3mRzw==
   dependencies:
-    "@baifendian/adhere-util" "^1.0.14-fix.0"
+    "@baifendian/adhere-util" "^1.0.14-fix.1"
     "@baifendian/adhere-util-emitter" "^1.0.14"
     "@turf/turf" "^6.5.0"
 
@@ -1174,12 +1147,12 @@
     react-dom "^17.0.1"
     react-intl-universal "^2.4.3"
 
-"@baifendian/adhere-util-notnull@^1.0.14-fix.0":
-  version "1.0.14-fix.0"
-  resolved "https://registry.yarnpkg.com/@baifendian/adhere-util-notnull/-/adhere-util-notnull-1.0.14-fix.0.tgz#e54c0851e54f402e6a9f9b1ee5087a248d0c3a2b"
-  integrity sha512-tGqoobrvQi7PgBCcPey3rVPNZX7oyXwnTHzcPivRWxuasCyJdR2gso7zWGo3WgXGleHDDzIq5eVAtqkLeD9swA==
+"@baifendian/adhere-util-notnull@^1.0.14-fix.1":
+  version "1.0.14-fix.1"
+  resolved "https://registry.yarnpkg.com/@baifendian/adhere-util-notnull/-/adhere-util-notnull-1.0.14-fix.1.tgz#2634b515faa5b17626c25df1e30076e79ebd9957"
+  integrity sha512-8+qJsNjqagnl1An0HNRsk6sCrGbDDf/DUHLOktk7+WTv6oMeli1WtweHg9tMNsKMxXnBKIiwRZGjtqSUc+teRg==
   dependencies:
-    "@baifendian/adhere-util" "^1.0.14-fix.0"
+    "@baifendian/adhere-util" "^1.0.14-fix.1"
 
 "@baifendian/adhere-util-preferences@^1.0.14":
   version "1.0.14"
@@ -1193,209 +1166,201 @@
   dependencies:
     validator "^13.6.0"
 
-"@baifendian/adhere-util-watchmemoized@^1.0.14-fix.0":
-  version "1.0.14-fix.0"
-  resolved "https://registry.yarnpkg.com/@baifendian/adhere-util-watchmemoized/-/adhere-util-watchmemoized-1.0.14-fix.0.tgz#e37e369d8168f6c241f050b1b06c269699f4ceed"
-  integrity sha512-SDEJQODO0H0u+RW6A4s/Xa5C2u4/8QpvCyvE9Z9O+WoNLVBEOXxg1yV5kC7Xm6ffyQWJb9y4dmK+2sRVTkUXhg==
+"@baifendian/adhere-util-watchmemoized@^1.0.14-fix.1":
+  version "1.0.14-fix.1"
+  resolved "https://registry.yarnpkg.com/@baifendian/adhere-util-watchmemoized/-/adhere-util-watchmemoized-1.0.14-fix.1.tgz#9ccfe64df5fafa80f593c5dd8f1ac6c76285e395"
+  integrity sha512-JyxsG5S2QtGiLe9aZ5SVCUciEis9ihJJ3FeshiUjzRxJwG+7ElFMr9e215MNMCK2fxGNFGVMZ4yeAw016e/Llg==
   dependencies:
-    "@baifendian/adhere-util" "^1.0.14-fix.0"
+    "@baifendian/adhere-util" "^1.0.14-fix.1"
     "@baifendian/adhere-util-emitter" "^1.0.14"
     lodash "^4.17.21"
 
-"@baifendian/adhere-util@^1.0.14-fix.0":
-  version "1.0.14-fix.0"
-  resolved "https://registry.yarnpkg.com/@baifendian/adhere-util/-/adhere-util-1.0.14-fix.0.tgz#7af4ccdf31443f8543a7fc94694866b81ce87649"
-  integrity sha512-+j1UmsPxnIeWRzCn5SYI/QJQmqp6eFfnD5KFT1RFHl3qSehqW9pLMs42ld7wH6JWINxsGdG8kskuH2fgw9BN3Q==
+"@baifendian/adhere-util@^1.0.14-fix.1":
+  version "1.0.14-fix.1"
+  resolved "https://registry.yarnpkg.com/@baifendian/adhere-util/-/adhere-util-1.0.14-fix.1.tgz#4989fa9d6648e94287ace2b63a6f80cc1a82473e"
+  integrity sha512-QBfNZelB9UTvC0JniyfUkABCpL4mjHzUzmohMPjRX77xb6zDa5xo71f8MIxKbRBQLnmgjaRofMKqC11wWs03fA==
   dependencies:
     "@baifendian/adhere-util-preferences" "^1.0.14"
-    "@baifendian/adhere-util-watchmemoized" "^1.0.14-fix.0"
+    "@baifendian/adhere-util-watchmemoized" "^1.0.14-fix.1"
 
-"@baifendian/adherev-ui-backtopanimation@^1.0.8":
-  version "1.0.8"
-  resolved "https://registry.yarnpkg.com/@baifendian/adherev-ui-backtopanimation/-/adherev-ui-backtopanimation-1.0.8.tgz#045bb970eb2b10b12d25f7a6febd4a949d29cfaa"
-  integrity sha512-zDYE1qYc/0/cLIqYdWgNOm9rak0YW2KLqfGJI1HPFSNDJwH7jRmj/7v9dvTeAJPK1LmpgFHiBJd+TGL2Dgx/7Q==
+"@baifendian/adherev-ui-backtopanimation@^1.0.8-fix.1":
+  version "1.0.8-fix.1"
+  resolved "https://registry.yarnpkg.com/@baifendian/adherev-ui-backtopanimation/-/adherev-ui-backtopanimation-1.0.8-fix.1.tgz#cd25fe51d2ff8374a116860001eec47f140d6fa2"
+  integrity sha512-6j8q6aU7W8Pv58UW9wy0R3DD5YWQ3bvC/BB3eKPEXJv3PlWvv4WsOEdnvc2OJCdIgGyIz3+TcIoLy7TW2vqrbQ==
   dependencies:
-    "@baifendian/adherev-util" "^1.0.8"
-    "@baifendian/adherev-util-resource" "^1.0.8"
+    "@baifendian/adherev-util" "^1.0.8-fix.1"
+    "@baifendian/adherev-util-resource" "^1.0.8-fix.1"
     classnames "^2.2.6"
     omit.js "^2.0.2"
     vue "^2.6.14"
 
-"@baifendian/adherev-ui-bmap@^1.0.8":
-  version "1.0.8"
-  resolved "https://registry.yarnpkg.com/@baifendian/adherev-ui-bmap/-/adherev-ui-bmap-1.0.8.tgz#3b6ec2c1ba08c24f95278ecd515d6484865c9155"
-  integrity sha512-FQuFRT/7K1JD7fJXE4ktLltVL2VS8Y2F+6cd54iP6yl8fc2KmYD4r88v+tQmGMj/kYmsKpY+/JNZETfG21dS9Q==
+"@baifendian/adherev-ui-cascadecompared@^1.0.8-fix.1":
+  version "1.0.8-fix.1"
+  resolved "https://registry.yarnpkg.com/@baifendian/adherev-ui-cascadecompared/-/adherev-ui-cascadecompared-1.0.8-fix.1.tgz#26e5efceb6a5e8130d95329ced94fecdf4c15458"
+  integrity sha512-en4A7t33jbDqT+uqB6H0+ObKkyaEfbpdYR0nYIt/xRyBQqFx46AAQpu3fwV1TOYpg9JtJdHRDDVKYqKPEYmkrQ==
   dependencies:
-    "@baifendian/adhere-ui-bmap" "^1.0.14-fix.0"
-    "@baifendian/adherev-ui-conditionalrender" "^1.0.8"
-    "@baifendian/adherev-util" "^1.0.8"
-
-"@baifendian/adherev-ui-cascadecompared@^1.0.8":
-  version "1.0.8"
-  resolved "https://registry.yarnpkg.com/@baifendian/adherev-ui-cascadecompared/-/adherev-ui-cascadecompared-1.0.8.tgz#b25b71bc594b12f343fe45b2e89cbbb49c74f057"
-  integrity sha512-kcv5La0YUUh6EeklymvhhRVjoD3YHVnoUQSL3SKFR3VmOwvuq2rTGc8hgDAifCT5v1/cTjYoN2bQTakJhq4q/A==
-  dependencies:
-    "@baifendian/adherev-ui-stickuplayout" "^1.0.8"
-    "@baifendian/adherev-util" "^1.0.8"
+    "@baifendian/adherev-ui-stickuplayout" "^1.0.8-fix.1"
+    "@baifendian/adherev-util" "^1.0.8-fix.1"
     classnames "^2.2.6"
     iscroll "^5.2.0"
     vue "^2.6.14"
     vue-fragment "^1.5.2"
 
-"@baifendian/adherev-ui-conditionalrender@^1.0.8":
-  version "1.0.8"
-  resolved "https://registry.yarnpkg.com/@baifendian/adherev-ui-conditionalrender/-/adherev-ui-conditionalrender-1.0.8.tgz#426dfbad1034908e60a850d1f3090916761ffaad"
-  integrity sha512-gv+j22i5NANlTKXO+/lbFOTN/HK9hwkkF/wcgrmczk9z8um0ZN7KfXcM1E+S/lmsFny/F9JREZ6DzyRbnTfY7g==
+"@baifendian/adherev-ui-conditionalrender@^1.0.8-fix.1":
+  version "1.0.8-fix.1"
+  resolved "https://registry.yarnpkg.com/@baifendian/adherev-ui-conditionalrender/-/adherev-ui-conditionalrender-1.0.8-fix.1.tgz#e1a76f55612f2ef3fea0d1ad68f2b36d3bebcc47"
+  integrity sha512-YysQ18T3PxNj4NjSGR8m+ExpVVnu/25vvyS/o84J+XyB+6aAANmKQ6+RwxGgwpEUaiQElLDoVGj+WQ3y/ll1Og==
   dependencies:
-    "@baifendian/adherev-util" "^1.0.8"
+    "@baifendian/adherev-util" "^1.0.8-fix.1"
+    vue "^2.6.14"
+    vue-fragment "^1.5.2"
+
+"@baifendian/adherev-ui-confirm-delconfirm@^1.0.8-fix.1":
+  version "1.0.8-fix.1"
+  resolved "https://registry.yarnpkg.com/@baifendian/adherev-ui-confirm-delconfirm/-/adherev-ui-confirm-delconfirm-1.0.8-fix.1.tgz#c962949648c492b7e1a9d0434cc620800ee1fcfa"
+  integrity sha512-VeBIP9yHmeXOdJ7ALn5o/PfQm9T8Ggzz5kpw/kiPIP7oWf4KXv6atMaNobymvK3XccRFN8CDedRn5UuJ/YvHZQ==
+  dependencies:
+    "@baifendian/adherev-ui-messagedialog" "^1.0.8-fix.1"
+    "@baifendian/adherev-util" "^1.0.8-fix.1"
+    "@baifendian/adherev-util-intl" "^1.0.8-fix.1"
+    "@baifendian/adherev-util-resource" "^1.0.8-fix.1"
     vue "^2.6.14"
 
-"@baifendian/adherev-ui-confirm-delconfirm@^1.0.8":
-  version "1.0.8"
-  resolved "https://registry.yarnpkg.com/@baifendian/adherev-ui-confirm-delconfirm/-/adherev-ui-confirm-delconfirm-1.0.8.tgz#f43b621eba2ea63be608f57d3cf15c45fff85381"
-  integrity sha512-T3OkWdFrUV0j35Y4lgY/6tdqxZ0Cenl5d/n0+r88g1567FuOvA9D6ePCuK3xE6rXF6d4ZcM8gcQMu1zCbmoB6w==
+"@baifendian/adherev-ui-confirm-importantconfirm@^1.0.8-fix.1":
+  version "1.0.8-fix.1"
+  resolved "https://registry.yarnpkg.com/@baifendian/adherev-ui-confirm-importantconfirm/-/adherev-ui-confirm-importantconfirm-1.0.8-fix.1.tgz#a04fdbdbe3e2c3970e4bb629b3e45d0405538d55"
+  integrity sha512-EfJifstouvIdplQFlzCRTbSUzOEvZuKqk83xD25BDGqMd4eqfM9ph+TzaIPuAEcJZVxF2fgeMsIjoIwxLYp57Q==
   dependencies:
-    "@baifendian/adherev-ui-messagedialog" "^1.0.8"
-    "@baifendian/adherev-util" "^1.0.8"
-    "@baifendian/adherev-util-intl" "^1.0.8"
-    "@baifendian/adherev-util-resource" "^1.0.8"
+    "@baifendian/adherev-ui-messagedialog" "^1.0.8-fix.1"
+    "@baifendian/adherev-util" "^1.0.8-fix.1"
+    "@baifendian/adherev-util-intl" "^1.0.8-fix.1"
+    "@baifendian/adherev-util-resource" "^1.0.8-fix.1"
     vue "^2.6.14"
 
-"@baifendian/adherev-ui-confirm-importantconfirm@^1.0.8":
-  version "1.0.8"
-  resolved "https://registry.yarnpkg.com/@baifendian/adherev-ui-confirm-importantconfirm/-/adherev-ui-confirm-importantconfirm-1.0.8.tgz#dd4ff73ca77b55dd93c474cda7aaa32f5a4e831d"
-  integrity sha512-E+32afvMlw/T6+0EToGSrXa/x3VJwSeM32o97UJCV0p1luVx0cODRgFCb6GVZVe6dYdLvIDCO7GOA0PHtirnug==
+"@baifendian/adherev-ui-contextmenu@^1.0.8-fix.1":
+  version "1.0.8-fix.1"
+  resolved "https://registry.yarnpkg.com/@baifendian/adherev-ui-contextmenu/-/adherev-ui-contextmenu-1.0.8-fix.1.tgz#e283c75752a71c1d667441b07a1ae362e60437f9"
+  integrity sha512-2iF2tyY2MGW4czwOKgKU73tD/jstZdLdoJEMq6qv472KF1K1uxWBgxP6eDZ5etoishBuX9FlvMMj907j3SxI9A==
   dependencies:
-    "@baifendian/adherev-ui-messagedialog" "^1.0.8"
-    "@baifendian/adherev-util" "^1.0.8"
-    "@baifendian/adherev-util-intl" "^1.0.8"
-    "@baifendian/adherev-util-resource" "^1.0.8"
-    vue "^2.6.14"
-
-"@baifendian/adherev-ui-contextmenu@^1.0.8":
-  version "1.0.8"
-  resolved "https://registry.yarnpkg.com/@baifendian/adherev-ui-contextmenu/-/adherev-ui-contextmenu-1.0.8.tgz#16647b8d00842d634f88250f6c0feb8111306245"
-  integrity sha512-LaHVsdVdUPOXsWR5JaorJyVNXIgkix5bUcnbHThNfCc9Pznl5YYnNmDTdyKvIm2dv7IWUT2s4uaTrZu0vg79Rg==
-  dependencies:
-    "@baifendian/adherev-ui-conditionalrender" "^1.0.8"
-    "@baifendian/adherev-ui-css" "^1.0.8"
-    "@baifendian/adherev-util" "^1.0.8"
+    "@baifendian/adherev-ui-conditionalrender" "^1.0.8-fix.1"
+    "@baifendian/adherev-ui-css" "^1.0.8-fix.1"
+    "@baifendian/adherev-util" "^1.0.8-fix.1"
     classnames "^2.2.6"
     vue "^2.6.14"
 
-"@baifendian/adherev-ui-css@^1.0.8":
-  version "1.0.8"
-  resolved "https://registry.yarnpkg.com/@baifendian/adherev-ui-css/-/adherev-ui-css-1.0.8.tgz#2e7d9602f7ba705d9a7bbf09f0bd2462ee3b64d1"
-  integrity sha512-kQUyvRaWc1BrdRLAcv9oJZf/qIykfZYhEk5ocoDtWLcBztZ4QtIQeY+U5tBZRY3YhNIfQGjD/tMKuPziA9e1ng==
+"@baifendian/adherev-ui-css@^1.0.8-fix.1":
+  version "1.0.8-fix.1"
+  resolved "https://registry.yarnpkg.com/@baifendian/adherev-ui-css/-/adherev-ui-css-1.0.8-fix.1.tgz#4da84df39d1662cd1a27e5f3fa5de25ba1ee3fea"
+  integrity sha512-6RNSJz3sq8enhmSiJxLcgd8cZGv81WP32/jPwEzz3Iec1VW3VfY/I5BV6PrQKdtoJeuF9mrTCA0ys5k2dIyUOQ==
   dependencies:
     "@baifendian/adhere-ui-css" "^1.0.14"
 
-"@baifendian/adherev-ui-flexlayout@^1.0.8":
-  version "1.0.8"
-  resolved "https://registry.yarnpkg.com/@baifendian/adherev-ui-flexlayout/-/adherev-ui-flexlayout-1.0.8.tgz#ba25bfa545487d1e9c23c264b3b5e3be87c143fe"
-  integrity sha512-P3pD8c112RYdMSiGROHvNk1lO1jKEyTghrMTzncHP74RwIk6eup4a9EkbM4BCBG/kXHV813MxIAT0LEAq5SZ0A==
+"@baifendian/adherev-ui-flexlayout@^1.0.8-fix.1":
+  version "1.0.8-fix.1"
+  resolved "https://registry.yarnpkg.com/@baifendian/adherev-ui-flexlayout/-/adherev-ui-flexlayout-1.0.8-fix.1.tgz#c92e379cd6b633dacabe506adef69fae504a4c22"
+  integrity sha512-bDfuYOx8cwhUASzIeReRO/CzJLW8L9tbp7fstRSjuxMVP7PlWMFExSjt9vLfdeDWGave19cWcYuXhTjRRRur5w==
   dependencies:
-    "@baifendian/adherev-util" "^1.0.8"
+    "@baifendian/adherev-util" "^1.0.8-fix.1"
     classnames "^2.2.6"
     vue "^2.6.14"
 
-"@baifendian/adherev-ui-fontsizesetting@^1.0.8":
-  version "1.0.8"
-  resolved "https://registry.yarnpkg.com/@baifendian/adherev-ui-fontsizesetting/-/adherev-ui-fontsizesetting-1.0.8.tgz#545822aa854d28eda0cd66282613b8d176bac2c1"
-  integrity sha512-1dIwenONfW9OMZyTSUkAlTcMYNuQV4EAsNc10ZrygelIF9RgkxwX2JR/qVeO0be/wPljQn8TWDif494RmHIqpQ==
+"@baifendian/adherev-ui-fontsizesetting@^1.0.8-fix.1":
+  version "1.0.8-fix.1"
+  resolved "https://registry.yarnpkg.com/@baifendian/adherev-ui-fontsizesetting/-/adherev-ui-fontsizesetting-1.0.8-fix.1.tgz#6a61205cda8cfe7ff1eb552a74687ab2272b96d7"
+  integrity sha512-361/CFYGxS9wv3jlcnOu12CDLzAlkzQrAq1zFHg34f9QpS7865kzQnbt1MA4BbCEI/prSE63RzP/nf6vzkWOgA==
   dependencies:
-    "@baifendian/adherev-ui-css" "^1.0.8"
-    "@baifendian/adherev-util" "^1.0.8"
+    "@baifendian/adherev-ui-css" "^1.0.8-fix.1"
+    "@baifendian/adherev-util" "^1.0.8-fix.1"
     ant-design-vue "^1.7.6"
     vue "^2.6.14"
 
-"@baifendian/adherev-ui-globalindicator@^1.0.8":
-  version "1.0.8"
-  resolved "https://registry.yarnpkg.com/@baifendian/adherev-ui-globalindicator/-/adherev-ui-globalindicator-1.0.8.tgz#3ed4c8168c9bb7e51e37fe89384e1b24387c4d3d"
-  integrity sha512-gcPkGsqoW+JBxn4leEAQzg2oNxL4x8b8sLAD7QkN4pivu7ztB89U9+Acz0EB+AJvxTgzBRfieZnfLQ7AL9C4+g==
+"@baifendian/adherev-ui-globalindicator@^1.0.8-fix.1":
+  version "1.0.8-fix.1"
+  resolved "https://registry.yarnpkg.com/@baifendian/adherev-ui-globalindicator/-/adherev-ui-globalindicator-1.0.8-fix.1.tgz#d67f72082905840e82aa5e8b3e5436d542b3d5fc"
+  integrity sha512-Via9dy0npZXzk2PVK9TQlXiHvZPaMw2Kk23b7v82XSF12W5c0embytftB89NGjxEoS/kq+mFjUnYdRhirLQ93w==
   dependencies:
-    "@baifendian/adherev-ui-css" "^1.0.8"
-    "@baifendian/adherev-util" "^1.0.8"
-    "@baifendian/adherev-util-resource" "^1.0.8"
+    "@baifendian/adherev-ui-css" "^1.0.8-fix.1"
+    "@baifendian/adherev-util" "^1.0.8-fix.1"
+    "@baifendian/adherev-util-resource" "^1.0.8-fix.1"
 
-"@baifendian/adherev-ui-historyback@^1.0.8":
-  version "1.0.8"
-  resolved "https://registry.yarnpkg.com/@baifendian/adherev-ui-historyback/-/adherev-ui-historyback-1.0.8.tgz#7a02bf20720b769c2b44f22f9480c1c541a3871d"
-  integrity sha512-k4sPS3vlZzS5EOeRc1iAPe1DuUjId2RLSq+keJCWPmIaFGGJOnvfjR5/K2aMvCqM219NkL3abLy+ZmhflXlQUA==
+"@baifendian/adherev-ui-historyback@^1.0.8-fix.1":
+  version "1.0.8-fix.1"
+  resolved "https://registry.yarnpkg.com/@baifendian/adherev-ui-historyback/-/adherev-ui-historyback-1.0.8-fix.1.tgz#ff0799a7ea7c33e8aad2fab8d3711cc35bebc123"
+  integrity sha512-SP5mmwip0lhLcONbAQqUHdpxFm925gPigBojY/Bh9ZSccNwGAu5aDUfj92sqnjYy72ZOu2GWLj8UOfIVAmX19g==
   dependencies:
     "@baifendian/adhere-ui-historyback" "^1.0.14"
-    "@baifendian/adherev-util" "^1.0.8"
+    "@baifendian/adherev-util" "^1.0.8-fix.1"
 
-"@baifendian/adherev-ui-imagelazy@^1.0.8":
-  version "1.0.8"
-  resolved "https://registry.yarnpkg.com/@baifendian/adherev-ui-imagelazy/-/adherev-ui-imagelazy-1.0.8.tgz#aa333f45aa4642874db47bbd789d37f891c0ac00"
-  integrity sha512-ZJTwmYjOGQ8t5RM4agN156IImt/AdqvRxYfShvl46FK+O4xEXwAg4xx5uPZme4fdU2MZFx3lAvvCLWJCxqAF5Q==
+"@baifendian/adherev-ui-imagelazy@^1.0.8-fix.1":
+  version "1.0.8-fix.1"
+  resolved "https://registry.yarnpkg.com/@baifendian/adherev-ui-imagelazy/-/adherev-ui-imagelazy-1.0.8-fix.1.tgz#8f6fdd37ed7168167261a15fc36140e1f79d9e9b"
+  integrity sha512-XQxSH3uCyoIbfB+zE4shRwb1TxlfuZjEKvFvEQ+k6lwhfhNix4WV7pAG0R85BU3RWPZ/r3Z90hj0qTNMQ+G2Ng==
   dependencies:
-    "@baifendian/adherev-util" "^1.0.8"
+    "@baifendian/adherev-util" "^1.0.8-fix.1"
     vue "^2.6.14"
 
-"@baifendian/adherev-ui-jdcategorytab@^1.0.8":
-  version "1.0.8"
-  resolved "https://registry.yarnpkg.com/@baifendian/adherev-ui-jdcategorytab/-/adherev-ui-jdcategorytab-1.0.8.tgz#581a8098d1f795940ec706c3224dc12c712bdcf2"
-  integrity sha512-bWXdAmXyi0Xp2Fqlx3ylRMP4bZP/SJ7atiIp42wU7n6i6oT1F3JFAA8UUg1hzCBdo2eL4hG1GgyCh8Os2h4hVA==
+"@baifendian/adherev-ui-jdcategorytab@^1.0.8-fix.1":
+  version "1.0.8-fix.1"
+  resolved "https://registry.yarnpkg.com/@baifendian/adherev-ui-jdcategorytab/-/adherev-ui-jdcategorytab-1.0.8-fix.1.tgz#286d5e623f340ab118d9b2afc02998aadc1a2703"
+  integrity sha512-4uxmx3D6Vyip4KQkuArK1gB/NZGVW2bbRmFh0u9NlPp6nLIwvaYVnmjO39IN8mgWECtsQ4Q9dy0ZQa3fV6Q4SQ==
   dependencies:
-    "@baifendian/adherev-util" "^1.0.8"
+    "@baifendian/adherev-util" "^1.0.8-fix.1"
     classnames "^2.2.6"
     iscroll "^5.2.0"
     vue "^2.6.14"
 
-"@baifendian/adherev-ui-messagedialog@^1.0.8":
-  version "1.0.8"
-  resolved "https://registry.yarnpkg.com/@baifendian/adherev-ui-messagedialog/-/adherev-ui-messagedialog-1.0.8.tgz#a4b2ba16b1499a43d29068c6fc0f89e0bee5f52c"
-  integrity sha512-WFx3YkgGLItNuZzR5dT5H4pITf8+DXdFSvHAihqSyhEhRdFHHF2r0jgSlEEoBYXn/f+8wi5HnetVCtm8ucuyNA==
+"@baifendian/adherev-ui-messagedialog@^1.0.8-fix.1":
+  version "1.0.8-fix.1"
+  resolved "https://registry.yarnpkg.com/@baifendian/adherev-ui-messagedialog/-/adherev-ui-messagedialog-1.0.8-fix.1.tgz#438e771eb413b560de0cd1a18da714fe18d85bf2"
+  integrity sha512-zFalX3U2PbkrSfr83D/Lrnc/kvHmMtxM4EYMF7pnEP7916mPluftcIx8lXkFibbHGqU+Hqq90mL3+N4GSmeNtw==
   dependencies:
-    "@baifendian/adherev-util" "^1.0.8"
-    "@baifendian/adherev-util-intl" "^1.0.8"
-    "@baifendian/adherev-util-resource" "^1.0.8"
+    "@baifendian/adherev-util" "^1.0.8-fix.1"
+    "@baifendian/adherev-util-intl" "^1.0.8-fix.1"
+    "@baifendian/adherev-util-resource" "^1.0.8-fix.1"
     "@form-create/ant-design-vue" "^2.5.6"
     ant-design-vue "^1.7.5"
     vue "^2.6.12"
 
-"@baifendian/adherev-ui-notification@^1.0.8":
-  version "1.0.8"
-  resolved "https://registry.yarnpkg.com/@baifendian/adherev-ui-notification/-/adherev-ui-notification-1.0.8.tgz#64d4daa0c81d40d4370d77db3682c244caeffe81"
-  integrity sha512-CCjFB7q7Cwu/stWjw3UajGx0r43UVkSVwFDmKbtGO2zEV+5BU3kKZHi1OVzAE+JrqsezXUelRUAhdR7T8upzkQ==
+"@baifendian/adherev-ui-notification@^1.0.8-fix.1":
+  version "1.0.8-fix.1"
+  resolved "https://registry.yarnpkg.com/@baifendian/adherev-ui-notification/-/adherev-ui-notification-1.0.8-fix.1.tgz#fd74ce6a34136a5685850e60946a7fdb9518fbb3"
+  integrity sha512-39Qo7u5nRzdPVWz2ptNidg0m7CT97RtoLg+4lHuTrs8WXBUka8QpxuC1osVAyRksrOQ1pWvR04LrYqJybThx4g==
   dependencies:
-    "@baifendian/adherev-util" "^1.0.8"
+    "@baifendian/adherev-util" "^1.0.8-fix.1"
     classnames "^2.2.6"
     omit.js "^2.0.2"
     uuid "^8.3.2"
     vue "^2.6.14"
     vue-fragment "^1.5.2"
 
-"@baifendian/adherev-ui-olmap@^1.0.8":
-  version "1.0.8"
-  resolved "https://registry.yarnpkg.com/@baifendian/adherev-ui-olmap/-/adherev-ui-olmap-1.0.8.tgz#ba85d009f312b99387433f69fb56bf83ad54cce9"
-  integrity sha512-iD8l2A0grWZDFrpzSz9J6LdirJDifpndSkyiKm3Ou0VqGMnAvc4MRruJOZVn/0+bu0w8ADraJvlRPc4WNMBK1w==
+"@baifendian/adherev-ui-olmap@^1.0.8-fix.1":
+  version "1.0.8-fix.1"
+  resolved "https://registry.yarnpkg.com/@baifendian/adherev-ui-olmap/-/adherev-ui-olmap-1.0.8-fix.1.tgz#11737d8f46c3e08dfff74005ff26babcc699ad1b"
+  integrity sha512-Pm2YJzFRIS0Ab0SLSreLjC4Y3OKdbXulxbHefIMiUfoP8wGae4QxlrtnS2Er65XKfz800kLuBYzsaKQ97wfpeA==
   dependencies:
-    "@baifendian/adherev-util" "^1.0.8"
-    "@baifendian/adherev-util-resource" "^1.0.8"
+    "@baifendian/adherev-util" "^1.0.8-fix.1"
+    "@baifendian/adherev-util-resource" "^1.0.8-fix.1"
     algebra.js "^0.2.6"
     ol "6.5.0"
     ol-wind "^1.1.1-alpha.2"
     uuid "^8.3.2"
 
-"@baifendian/adherev-ui-permission@^1.0.8":
-  version "1.0.8"
-  resolved "https://registry.yarnpkg.com/@baifendian/adherev-ui-permission/-/adherev-ui-permission-1.0.8.tgz#cd29fa86046d39ada8a24faaecc5114c13064ef4"
-  integrity sha512-PcgNV7gpl8hBmXgzcKqQMuVRntmxSrE/30cQLMfNua0njCmkXDfM9qpMBsHD5r6BU+H6YXZdutMehxQVSVp1Ag==
+"@baifendian/adherev-ui-permission@^1.0.8-fix.1":
+  version "1.0.8-fix.1"
+  resolved "https://registry.yarnpkg.com/@baifendian/adherev-ui-permission/-/adherev-ui-permission-1.0.8-fix.1.tgz#37a0df62974de44fce5ae588dc52dcfbfe38f74d"
+  integrity sha512-+wWaXtue7vkRXiBYiPcUCXI65Evl35gPNg4OT3hVrfA/BMLTpNp36Iec2YtuLRg8n3MpQo30rpnN9L6pcJucAw==
   dependencies:
-    "@baifendian/adherev-util" "^1.0.8"
+    "@baifendian/adherev-util" "^1.0.8-fix.1"
 
-"@baifendian/adherev-ui-playground@^1.0.8":
-  version "1.0.8"
-  resolved "https://registry.yarnpkg.com/@baifendian/adherev-ui-playground/-/adherev-ui-playground-1.0.8.tgz#417757c293b6b265ab57ee7f19ca1f120cec386e"
-  integrity sha512-KvhQZn/4IH3+DyT2TORXq5SlMdNC73UmH3s8Id71H833QUXAjJ+Ulbd/+AuBdut7DSFJ4swfr93ZzLZzGvTeMw==
+"@baifendian/adherev-ui-playground@^1.0.8-fix.1":
+  version "1.0.8-fix.1"
+  resolved "https://registry.yarnpkg.com/@baifendian/adherev-ui-playground/-/adherev-ui-playground-1.0.8-fix.1.tgz#e57540093773bc58f060110dbfd484dc1359be5e"
+  integrity sha512-wdPgAQlGDYYwsJa71TVqM7nnsDiWe/qadm8OTJZAnLZlLyqAiPms/poVytINmA0qJE35HmB8b2/X6wKl7fyLSQ==
   dependencies:
-    "@baifendian/adherev-ui-conditionalrender" "^1.0.8"
-    "@baifendian/adherev-ui-contextmenu" "^1.0.8"
-    "@baifendian/adherev-util" "^1.0.8"
-    "@baifendian/adherev-util-intl" "^1.0.8"
+    "@baifendian/adherev-ui-conditionalrender" "^1.0.8-fix.1"
+    "@baifendian/adherev-ui-contextmenu" "^1.0.8-fix.1"
+    "@baifendian/adherev-util" "^1.0.8-fix.1"
+    "@baifendian/adherev-util-intl" "^1.0.8-fix.1"
     classnames "^2.3.1"
     copy-to-clipboard "^3.3.1"
     highlight.js "^9.11.0"
@@ -1404,376 +1369,375 @@
     vue-highlight.js "^3.1.0"
     vue-hoc "^0.4.7"
 
-"@baifendian/adherev-ui-polygonselection@^1.0.8":
-  version "1.0.8"
-  resolved "https://registry.yarnpkg.com/@baifendian/adherev-ui-polygonselection/-/adherev-ui-polygonselection-1.0.8.tgz#6beb4f6f0c6dc717d28a52632ac411c61c9bb13e"
-  integrity sha512-GZ0/7eo9KYdrpMUdsVAav7Y94QULAYnmZfaKIfpoeCp+79rsOnEDsryG3uznyGornFSb9mk93G7s4oKI9Wg+lg==
+"@baifendian/adherev-ui-polygonselection@^1.0.8-fix.1":
+  version "1.0.8-fix.1"
+  resolved "https://registry.yarnpkg.com/@baifendian/adherev-ui-polygonselection/-/adherev-ui-polygonselection-1.0.8-fix.1.tgz#ac740a150c3b473005ad45628426ca9983b30354"
+  integrity sha512-3W7fUqZLdmMphqCCEWk014lOy5jUPMd9Pd/YQwVDPMutYOKUvNCkil4jWSaNpa2qBUGP8rECxgg9TnSKQ6n3Tg==
   dependencies:
-    "@baifendian/adhere-ui-polygonselection" "^1.0.14-fix.0"
-    "@baifendian/adherev-util" "^1.0.8"
+    "@baifendian/adhere-ui-polygonselection" "^1.0.14-fix.1"
+    "@baifendian/adherev-util" "^1.0.8-fix.1"
 
-"@baifendian/adherev-ui-popup@^1.0.8":
-  version "1.0.8"
-  resolved "https://registry.yarnpkg.com/@baifendian/adherev-ui-popup/-/adherev-ui-popup-1.0.8.tgz#b4f2b5ced8a00325542c855db121947fb59b4fc7"
-  integrity sha512-QSw3G335qINM62rnXrOM2/F7dPFmjdKlmp2Wyos4xoMy6sVD+fWB9XXg8ZrVOxU+pzgNEWJ0FdawOZ+oRx9HRg==
+"@baifendian/adherev-ui-popup@^1.0.8-fix.1":
+  version "1.0.8-fix.1"
+  resolved "https://registry.yarnpkg.com/@baifendian/adherev-ui-popup/-/adherev-ui-popup-1.0.8-fix.1.tgz#05167a834aa08c2752c0458e88f678c3e2d0218c"
+  integrity sha512-mBWoeLyVUGFJIh0XhHdXkPodbyX0cSw8ahJ9cYZmWF3tMu+mJt5iGDEppP0r6QUV0wmwjWv85E/cIgIbNQs2uw==
   dependencies:
-    "@baifendian/adherev-util" "^1.0.8"
+    "@baifendian/adherev-util" "^1.0.8-fix.1"
     classnames "^2.2.6"
     omit.js "^2.0.2"
     uuid "^8.3.2"
     vue "^2.6.14"
 
-"@baifendian/adherev-ui-prompt-errorprompt@^1.0.8":
-  version "1.0.8"
-  resolved "https://registry.yarnpkg.com/@baifendian/adherev-ui-prompt-errorprompt/-/adherev-ui-prompt-errorprompt-1.0.8.tgz#d4a31a18e50a87fceac34cba98322cae554faa23"
-  integrity sha512-pJYFVkXSx8xUCO6hTfbe1rfRcoRtJ0NEXgDFy0qgZFI8mWLXDGmIEEad0RkUgnbuLtgJecU93QvPIT0OvdpyJg==
+"@baifendian/adherev-ui-prompt-errorprompt@^1.0.8-fix.1":
+  version "1.0.8-fix.1"
+  resolved "https://registry.yarnpkg.com/@baifendian/adherev-ui-prompt-errorprompt/-/adherev-ui-prompt-errorprompt-1.0.8-fix.1.tgz#6ce86cf3547c4a31a0ecebaa4aae28421ed06cd7"
+  integrity sha512-P1w4qUzk4J/ZEIlWCY4Gz4VUsuzBehcK6E4wPlrOGlf6R3VKCql4btgkLgheR3I1OuCgA+DdyJQSDIWGOWvIsg==
   dependencies:
-    "@baifendian/adherev-util" "^1.0.8"
-    "@baifendian/adherev-util-intl" "^1.0.8"
+    "@baifendian/adherev-util" "^1.0.8-fix.1"
+    "@baifendian/adherev-util-intl" "^1.0.8-fix.1"
     ant-design-vue "^1.7.5"
     vue "^2.6.14"
 
-"@baifendian/adherev-ui-prompt-successprompt@^1.0.8":
-  version "1.0.8"
-  resolved "https://registry.yarnpkg.com/@baifendian/adherev-ui-prompt-successprompt/-/adherev-ui-prompt-successprompt-1.0.8.tgz#6d967d0e8ad0cd8bcc1d8fbf6348bb2769b9286d"
-  integrity sha512-958VjEwngfPa5k+pyEPmIR2KYJDqN4ZJeKGI/aD0Zc8E0+fPppILbSYkUIBDFv98WhVRxy3qXuwEvjW9dJLODg==
+"@baifendian/adherev-ui-prompt-successprompt@^1.0.8-fix.1":
+  version "1.0.8-fix.1"
+  resolved "https://registry.yarnpkg.com/@baifendian/adherev-ui-prompt-successprompt/-/adherev-ui-prompt-successprompt-1.0.8-fix.1.tgz#9089b14e9aff86e42e136cde83c21e6303ff1d49"
+  integrity sha512-HCVrTSTqnz5mhQQEQWKw8liMaXmQhxQ9Y+C9s4299VCflAsAkP2RhB1Yws7I4V0BkgMD3isdLRRfprx2QBGJOw==
   dependencies:
-    "@baifendian/adherev-util" "^1.0.8"
-    "@baifendian/adherev-util-intl" "^1.0.8"
+    "@baifendian/adherev-util" "^1.0.8-fix.1"
+    "@baifendian/adherev-util-intl" "^1.0.8-fix.1"
     ant-design-vue "^1.7.5"
     vue "^2.6.14"
 
-"@baifendian/adherev-ui-prompt-warnprompt@^1.0.8":
-  version "1.0.8"
-  resolved "https://registry.yarnpkg.com/@baifendian/adherev-ui-prompt-warnprompt/-/adherev-ui-prompt-warnprompt-1.0.8.tgz#9576677b76e16fe75d59983976aa8b655331b903"
-  integrity sha512-Iifb95/Q2eVtR2HXDwDRcyi7w6RWXWstmlQmELVaTa710U3Ytym14kPW+HU9LR0BhbOyVGEti+JWg0mgDuDOsg==
+"@baifendian/adherev-ui-prompt-warnprompt@^1.0.8-fix.1":
+  version "1.0.8-fix.1"
+  resolved "https://registry.yarnpkg.com/@baifendian/adherev-ui-prompt-warnprompt/-/adherev-ui-prompt-warnprompt-1.0.8-fix.1.tgz#7d0a70dccd9e7ac9d983c00641d7074c3d94853a"
+  integrity sha512-Vdf0lfkSCDBYw4aWydzMVmjkK7v+Y8qoULddoHTARzBgODHcn0W/FwlFxkVHPPLCVVc7mupGb3vP4fXAwKwXoA==
   dependencies:
-    "@baifendian/adherev-util" "^1.0.8"
+    "@baifendian/adherev-util" "^1.0.8-fix.1"
     ant-design-vue "^1.7.5"
     vue "^2.6.14"
 
-"@baifendian/adherev-ui-pullrefresh@^1.0.8":
-  version "1.0.8"
-  resolved "https://registry.yarnpkg.com/@baifendian/adherev-ui-pullrefresh/-/adherev-ui-pullrefresh-1.0.8.tgz#5530fe5178462ffda4a1dc5b57e68db362a07782"
-  integrity sha512-INSg1ns76j9fFrjDP3GYaFI0qMBfeJGtceJfC7+jwiXbuRqln2VEtJq2gvNSqiBC3m9NYUg6YEC9XJnI9TKCPQ==
+"@baifendian/adherev-ui-pullrefresh@^1.0.8-fix.1":
+  version "1.0.8-fix.1"
+  resolved "https://registry.yarnpkg.com/@baifendian/adherev-ui-pullrefresh/-/adherev-ui-pullrefresh-1.0.8-fix.1.tgz#79bbb472411a37621920be2459ad78b9b4e1e866"
+  integrity sha512-zMw0Pl6bPEhWH8VdMKWLgX0BAk1O7kx8GpwTwooHhrbqWrtNUwqct1WsXiwWNnI6ZV5cLfMk0bNAYWBbFg6Hkw==
   dependencies:
-    "@baifendian/adherev-ui-css" "^1.0.8"
-    "@baifendian/adherev-util" "^1.0.8"
-    "@baifendian/adherev-util-intl" "^1.0.8"
-    "@baifendian/adherev-util-resource" "^1.0.8"
+    "@baifendian/adherev-ui-css" "^1.0.8-fix.1"
+    "@baifendian/adherev-util" "^1.0.8-fix.1"
+    "@baifendian/adherev-util-intl" "^1.0.8-fix.1"
+    "@baifendian/adherev-util-resource" "^1.0.8-fix.1"
     classnames "^2.2.6"
     load-awesome "^1.1.0"
     moment "^2.29.1"
     omit.js "^2.0.2"
     vue "^2.6.14"
 
-"@baifendian/adherev-ui-revolving@^1.0.8":
-  version "1.0.8"
-  resolved "https://registry.yarnpkg.com/@baifendian/adherev-ui-revolving/-/adherev-ui-revolving-1.0.8.tgz#3de14aac90756448229f0182b76020f2bb2abdd0"
-  integrity sha512-ShzBshLzGdaTT2dptxlYyOXpmGfuV2fdO9gtdbIEVTfVE3IPmfelWfULYXnriWhXGVPDKC813/V6yecMUIhNYw==
+"@baifendian/adherev-ui-revolving@^1.0.8-fix.1":
+  version "1.0.8-fix.1"
+  resolved "https://registry.yarnpkg.com/@baifendian/adherev-ui-revolving/-/adherev-ui-revolving-1.0.8-fix.1.tgz#958eafce885f95a5c4631770fe036d839c9e9065"
+  integrity sha512-vfKKSph6JTXFFQOzcrJxYRZa2oCVPjdGueFlj2ZxTHTYeXD9YfUbXVzS6zeTF80YzsJivisoLDvjFwh6OvEgbw==
   dependencies:
-    "@baifendian/adherev-util" "^1.0.8"
+    "@baifendian/adherev-util" "^1.0.8-fix.1"
     classnames "^2.2.6"
     swiper "4.4.6"
     vue "^2.6.14"
 
-"@baifendian/adherev-ui-scrollload@^1.0.8":
-  version "1.0.8"
-  resolved "https://registry.yarnpkg.com/@baifendian/adherev-ui-scrollload/-/adherev-ui-scrollload-1.0.8.tgz#1c953c12d46c897b94e82049d54334bcd16dd1fd"
-  integrity sha512-+ZQkFmpfwzNSg2s6Ziaey3EICjReCQw7ceRk8vhiA4zCiH8zLV/iWKXt3enhV2GrQiMl/gUL9/qx2vJN9m+p/w==
+"@baifendian/adherev-ui-scrollload@^1.0.8-fix.1":
+  version "1.0.8-fix.1"
+  resolved "https://registry.yarnpkg.com/@baifendian/adherev-ui-scrollload/-/adherev-ui-scrollload-1.0.8-fix.1.tgz#690e269320b2671d2360f5f691429bb8f13a4516"
+  integrity sha512-9+y/R+qrLojdjwxx8WWxTsROuMpKrD2o5Sr0IA4cI0m8ljhQIA0zmpay1ysH5PIFxR6ga2tB7DnD6nNFtlBGeQ==
   dependencies:
-    "@baifendian/adherev-util" "^1.0.8"
-    "@baifendian/adherev-util-intl" "^1.0.8"
+    "@baifendian/adherev-util" "^1.0.8-fix.1"
+    "@baifendian/adherev-util-intl" "^1.0.8-fix.1"
     classnames "^2.2.6"
     vue "^2.6.14"
 
-"@baifendian/adherev-ui-searchtable@^1.0.8":
-  version "1.0.8"
-  resolved "https://registry.yarnpkg.com/@baifendian/adherev-ui-searchtable/-/adherev-ui-searchtable-1.0.8.tgz#89a9a4f9e80021403dcdcf8990d7f656c5c21c72"
-  integrity sha512-qO5kx6mbVrKUFNIN6UL3c7Ytw8dGdMYeFE5gItdH2cxcHHy0vESZMq5U74h4SN+swRP3bBaE831S8k4XKf/6EA==
+"@baifendian/adherev-ui-searchtable@^1.0.8-fix.1":
+  version "1.0.8-fix.1"
+  resolved "https://registry.yarnpkg.com/@baifendian/adherev-ui-searchtable/-/adherev-ui-searchtable-1.0.8-fix.1.tgz#2cf384d8de493c60c657c3b73e832f5e7a662472"
+  integrity sha512-HBthB/VbQcwVykzG4nf/vlgu5fk0C/lJO7KvH5UKrb8gzfkPxqs0NnTnqyHouScCl3knG78goXDUiW/IcfPYXA==
   dependencies:
-    "@baifendian/adherev-ui-conditionalrender" "^1.0.8"
-    "@baifendian/adherev-ui-css" "^1.0.8"
-    "@baifendian/adherev-ui-flexlayout" "^1.0.8"
-    "@baifendian/adherev-ui-suspense" "^1.0.8"
-    "@baifendian/adherev-util" "^1.0.8"
-    "@baifendian/adherev-util-intl" "^1.0.8"
-    "@baifendian/adherev-util-mixins" "^1.0.8"
+    "@baifendian/adherev-ui-conditionalrender" "^1.0.8-fix.1"
+    "@baifendian/adherev-ui-css" "^1.0.8-fix.1"
+    "@baifendian/adherev-ui-flexlayout" "^1.0.8-fix.1"
+    "@baifendian/adherev-ui-suspense" "^1.0.8-fix.1"
+    "@baifendian/adherev-util" "^1.0.8-fix.1"
+    "@baifendian/adherev-util-intl" "^1.0.8-fix.1"
+    "@baifendian/adherev-util-mixins" "^1.0.8-fix.1"
     "@ctsj/vuexgenerator" "^1.0.0"
     ant-design-vue "^1.7.5"
     classnames "^2.2.6"
     omit.js "^2.0.2"
     vue "^2.6.13"
 
-"@baifendian/adherev-ui-slidelayout@^1.0.8":
-  version "1.0.8"
-  resolved "https://registry.yarnpkg.com/@baifendian/adherev-ui-slidelayout/-/adherev-ui-slidelayout-1.0.8.tgz#963bcbe57a78f6651881eeaa1d00e17aaed81d08"
-  integrity sha512-JwRZV6Bnp/qP0HwZHJlkKEXACBgjCet3h7EHg1bNUheoUkLTxhC3ScX5KbeGC80tN7i7lv8NN+DDKvG6wM5phQ==
+"@baifendian/adherev-ui-slidelayout@^1.0.8-fix.1":
+  version "1.0.8-fix.1"
+  resolved "https://registry.yarnpkg.com/@baifendian/adherev-ui-slidelayout/-/adherev-ui-slidelayout-1.0.8-fix.1.tgz#980acce3faa8068fb5745de1770aea2fd187a725"
+  integrity sha512-2PxUb4smeRf2eynE2rFselvqptNS4ZTkeFvzQhsc2jtjx8FGPCT0P1uhnvfU07k505XtSXQBFb7OhsYFjYPQnA==
   dependencies:
-    "@baifendian/adherev-util" "^1.0.8"
+    "@baifendian/adherev-util" "^1.0.8-fix.1"
     classnames "^2.2.6"
     vue-fragment "^1.5.2"
 
-"@baifendian/adherev-ui-sliderscale@^1.0.8":
-  version "1.0.8"
-  resolved "https://registry.yarnpkg.com/@baifendian/adherev-ui-sliderscale/-/adherev-ui-sliderscale-1.0.8.tgz#6b5dd2084fd549a2323ba5ffbe78695ff070ec8c"
-  integrity sha512-MRGHhmeTMNnvjL0Bo82yyJd/dPPrSwX5/TrdfzSoprhE4jULDxieQhngRWDNGDtcjfusBnohTfsLy1Mi8hnnwQ==
+"@baifendian/adherev-ui-sliderscale@^1.0.8-fix.1":
+  version "1.0.8-fix.1"
+  resolved "https://registry.yarnpkg.com/@baifendian/adherev-ui-sliderscale/-/adherev-ui-sliderscale-1.0.8-fix.1.tgz#4ce82a42a15b50c3652d1a001de91395ec18642b"
+  integrity sha512-BffGp1a8FFVLJZIxdJY3JxdXqSXxE0FkAygJe7Xv74cWhSGC82wSyaxtuqdanBBOGNtiLW4vFEO0dUwdnGXj/g==
   dependencies:
-    "@baifendian/adherev-util" "^1.0.8"
+    "@baifendian/adherev-util" "^1.0.8-fix.1"
     vue "^2.6.14"
 
-"@baifendian/adherev-ui-space@^1.0.8":
-  version "1.0.8"
-  resolved "https://registry.yarnpkg.com/@baifendian/adherev-ui-space/-/adherev-ui-space-1.0.8.tgz#a2b995b0da3972ef2de34d58f7a470a594c72785"
-  integrity sha512-ofDZIZC8NJo+CV0IJkWxZ2J6v0VpM6x7ybI9+vlZXN9hmkumW/Wojca8W/cr2uR0i5fpz8ALyTInmiJNRFIvow==
+"@baifendian/adherev-ui-space@^1.0.8-fix.1":
+  version "1.0.8-fix.1"
+  resolved "https://registry.yarnpkg.com/@baifendian/adherev-ui-space/-/adherev-ui-space-1.0.8-fix.1.tgz#defa98675cbb119d59616d62ba0a15d5daea76bf"
+  integrity sha512-O7LHCe7oNA9LGUUhbpIYQzOwx6w1yg+6clJfOvgBKMF6cWMoAIEAujn/VYC75zuarv7/94XRCByOBS9ee+7G4Q==
   dependencies:
-    "@baifendian/adherev-util" "^1.0.8"
+    "@baifendian/adherev-util" "^1.0.8-fix.1"
     vue "^2.6.14"
 
-"@baifendian/adherev-ui-spin@^1.0.8":
-  version "1.0.8"
-  resolved "https://registry.yarnpkg.com/@baifendian/adherev-ui-spin/-/adherev-ui-spin-1.0.8.tgz#fac58ea7d629968e76007f2174bb0478792eb3e6"
-  integrity sha512-m+juiXKuoZnWuuABngq4MbD+oU/D1CNsfckODjnAUcMa2nBacGjCn+jGDLSsX6/cP+DGQUl57lequ0EtOVH3qQ==
+"@baifendian/adherev-ui-spin@^1.0.8-fix.1":
+  version "1.0.8-fix.1"
+  resolved "https://registry.yarnpkg.com/@baifendian/adherev-ui-spin/-/adherev-ui-spin-1.0.8-fix.1.tgz#152207527dfca3a568746864a9f518f8cdea7ccf"
+  integrity sha512-6eSmOIehkL9aT7LItBNGVesipWqsq9LeonP9oF0HzHwvllQ9U5yotwROqrgbwt4F+lSgF9qmL+st1pepgQ5RzA==
   dependencies:
-    "@baifendian/adherev-ui-css" "^1.0.8"
-    "@baifendian/adherev-util" "^1.0.8"
-    "@baifendian/adherev-util-resource" "^1.0.8"
+    "@baifendian/adherev-ui-css" "^1.0.8-fix.1"
+    "@baifendian/adherev-util" "^1.0.8-fix.1"
+    "@baifendian/adherev-util-resource" "^1.0.8-fix.1"
 
-"@baifendian/adherev-ui-split@^1.0.8":
-  version "1.0.8"
-  resolved "https://registry.yarnpkg.com/@baifendian/adherev-ui-split/-/adherev-ui-split-1.0.8.tgz#b5da4cf78c66cbf28a23a3404fc89eea1b344091"
-  integrity sha512-dQohE7igIKO98ytVccDvcrX/yPq4Y1j/onl7pxQYHcCRYftcyMH+MCitNZhnjgeLankBMGSDNztKlDLh/N56MQ==
+"@baifendian/adherev-ui-split@^1.0.8-fix.1":
+  version "1.0.8-fix.1"
+  resolved "https://registry.yarnpkg.com/@baifendian/adherev-ui-split/-/adherev-ui-split-1.0.8-fix.1.tgz#a8dcf876be0798e39cba9f211ac7e1ef1e170ae6"
+  integrity sha512-o5GR9YHO6Qc1YluJ/ogU35qMoTu89jFKTmamAPOd+bdr5qf+iE2JS7Tn0no9hBE40qpf2OyKAiIim8Wxx7i2eQ==
   dependencies:
-    "@baifendian/adherev-util" "^1.0.8"
+    "@baifendian/adherev-util" "^1.0.8-fix.1"
 
-"@baifendian/adherev-ui-splitlayout@^1.0.8":
-  version "1.0.8"
-  resolved "https://registry.yarnpkg.com/@baifendian/adherev-ui-splitlayout/-/adherev-ui-splitlayout-1.0.8.tgz#a526213bfe1bcc161064aac90348a30db9cc198d"
-  integrity sha512-kqnF+es0aJOqX5isEG8h9GtMl03Y2vfwUlJ6fYbZDX35Y3okYv6jgdiJlte4iyKHEY/d0T1MqQwb/9KTnbgypA==
+"@baifendian/adherev-ui-splitlayout@^1.0.8-fix.1":
+  version "1.0.8-fix.1"
+  resolved "https://registry.yarnpkg.com/@baifendian/adherev-ui-splitlayout/-/adherev-ui-splitlayout-1.0.8-fix.1.tgz#72a676c7a3dd3516734327b0d1452669b485fa8f"
+  integrity sha512-gsVHLhlf9HxnA+dU0C3QQm02bafNn6nqe7FDKBXpGLX6S3u8T89bbTQDHhvYApeb8mldzoxw0Urrcn5egGJk5A==
   dependencies:
-    "@baifendian/adherev-ui-flexlayout" "^1.0.8"
-    "@baifendian/adherev-util" "^1.0.8"
+    "@baifendian/adherev-ui-flexlayout" "^1.0.8-fix.1"
+    "@baifendian/adherev-util" "^1.0.8-fix.1"
     classnames "^2.2.6"
 
-"@baifendian/adherev-ui-stickuplayout@^1.0.8":
-  version "1.0.8"
-  resolved "https://registry.yarnpkg.com/@baifendian/adherev-ui-stickuplayout/-/adherev-ui-stickuplayout-1.0.8.tgz#4a601b4bc77e8a01583c1938f2f358713887e921"
-  integrity sha512-rR83fSAcLXOov/ROeP/aMl2lGQ8IUePyDyKT2fYyBa8B76SBUHHQNnubo6idsYeHNV2rIVY5ZQGvbHkUEgxTWA==
+"@baifendian/adherev-ui-stickuplayout@^1.0.8-fix.1":
+  version "1.0.8-fix.1"
+  resolved "https://registry.yarnpkg.com/@baifendian/adherev-ui-stickuplayout/-/adherev-ui-stickuplayout-1.0.8-fix.1.tgz#57dca9455dba144eec106e785980dc30fe14732a"
+  integrity sha512-gDjqSdCpbMs8gqPJW7zJevMDv0st9g1rAPrhPi6yr4vWqVXntIHhmiJy0DT6lL2f6Z7/NQ9jHBQZkwa5Bk3ang==
   dependencies:
-    "@baifendian/adherev-util" "^1.0.8"
+    "@baifendian/adherev-util" "^1.0.8-fix.1"
     classnames "^2.2.6"
 
-"@baifendian/adherev-ui-surnames@^1.0.8":
-  version "1.0.8"
-  resolved "https://registry.yarnpkg.com/@baifendian/adherev-ui-surnames/-/adherev-ui-surnames-1.0.8.tgz#c2e227755ca0b4b3f7ce57c860e60e3995ca30b0"
-  integrity sha512-2efwCUv7Z+RVkxodK8VW4BtCIoRGEy4h+hjuouqM0u0i/ENwZ3E5cKbFiUF4v3q65DGLjUgiTXu1x+AMe4Mm9g==
+"@baifendian/adherev-ui-surnames@^1.0.8-fix.1":
+  version "1.0.8-fix.1"
+  resolved "https://registry.yarnpkg.com/@baifendian/adherev-ui-surnames/-/adherev-ui-surnames-1.0.8-fix.1.tgz#6f73fd9e7cf9c7ee97c4432210498c04c164d1d0"
+  integrity sha512-9xodFefEriuuplptGUy8vgFD1kqWvknPFWsJMbJtmGAKbVjvwBlIN0cbrn7UXBOkJB29g2rLnr8dDePwWhaXBg==
   dependencies:
-    "@baifendian/adherev-util" "^1.0.8"
+    "@baifendian/adherev-util" "^1.0.8-fix.1"
     classnames "^2.2.6"
 
-"@baifendian/adherev-ui-suspense@^1.0.8":
-  version "1.0.8"
-  resolved "https://registry.yarnpkg.com/@baifendian/adherev-ui-suspense/-/adherev-ui-suspense-1.0.8.tgz#8233d1e2966ed5e56a059a900bfb57159439fe15"
-  integrity sha512-bNnasQMEECA3adSVBjtlRBR4lqL4NcVq+e/L2KpzWZHu6JqWPc3RGMO6Vv2r4p5ihFOZ1SuY6La2RoXcI+FQDw==
+"@baifendian/adherev-ui-suspense@^1.0.8-fix.1":
+  version "1.0.8-fix.1"
+  resolved "https://registry.yarnpkg.com/@baifendian/adherev-ui-suspense/-/adherev-ui-suspense-1.0.8-fix.1.tgz#042982cd54d415db4f938339f6c84bc6fb39fbe5"
+  integrity sha512-zW7kp1/AuSeAkG/s8A1LPBht01v8JGgvxFc7yOF6b6pl4ktMF+Zr+5xxVeuCNNzblmMamavOizCs2/dsuIQy2A==
   dependencies:
-    "@baifendian/adherev-util" "^1.0.8"
+    "@baifendian/adherev-util" "^1.0.8-fix.1"
     ant-design-vue "^1.7.5"
     vue "^2.6.14"
 
-"@baifendian/adherev-ui-swipeout@^1.0.8":
-  version "1.0.8"
-  resolved "https://registry.yarnpkg.com/@baifendian/adherev-ui-swipeout/-/adherev-ui-swipeout-1.0.8.tgz#6562a5e74c07dec8134795f25206f1eadd295c4e"
-  integrity sha512-ji7SxjL9YEAsgKZ7BHnOzcLz03JisYrB0H8wiIwJjXOoOTYIUqPy4E0SeGWRlTbhsZrCIcxVWKQteIitU9HLiA==
+"@baifendian/adherev-ui-swipeout@^1.0.8-fix.1":
+  version "1.0.8-fix.1"
+  resolved "https://registry.yarnpkg.com/@baifendian/adherev-ui-swipeout/-/adherev-ui-swipeout-1.0.8-fix.1.tgz#6d76a8314664c4f9b120395e0a5d192acca0fb95"
+  integrity sha512-673VgsNo454vWMEHn9OAoWG48o4beQEpEn9g4Arg6qRwXMkCDxhzJ9hW2zWnTb/1OrZaXeesd9Cv0Wfb8Sm8Eg==
   dependencies:
-    "@baifendian/adherev-util" "^1.0.8"
+    "@baifendian/adherev-util" "^1.0.8-fix.1"
     classnames "^2.2.6"
     omit.js "^2.0.2"
     swiper "^4.5.0"
 
-"@baifendian/adherev-util-adapterscreen@^1.0.8":
-  version "1.0.8"
-  resolved "https://registry.yarnpkg.com/@baifendian/adherev-util-adapterscreen/-/adherev-util-adapterscreen-1.0.8.tgz#0fb611cccceeebe2c928736d057429a0be11b36d"
-  integrity sha512-54w+nNCksGmATJQCiI9iRn7/KA8Fxf25tw3asQihYGz158hhR9JPRrQ4TgRhdPdDnwlvORvNDxHoH3Nw/D1crg==
+"@baifendian/adherev-util-adapterscreen@^1.0.8-fix.1":
+  version "1.0.8-fix.1"
+  resolved "https://registry.yarnpkg.com/@baifendian/adherev-util-adapterscreen/-/adherev-util-adapterscreen-1.0.8-fix.1.tgz#232e7af1f85de774c0f990468adf7ce381a99f9a"
+  integrity sha512-758zyDfNU6YU3Wv81a0xPM2IDHuVVXHVit8n3pYVs5H+CZ/Vbx88PPtkt/r+p8H0Ry6vhxnZwIGo8H5+l2ZQdQ==
   dependencies:
     "@baifendian/adhere-util-adapterscreen" "^1.0.14"
-    "@baifendian/adherev-util" "^1.0.8"
+    "@baifendian/adherev-util" "^1.0.8-fix.1"
 
-"@baifendian/adherev-util-browsersniff@^1.0.8":
-  version "1.0.8"
-  resolved "https://registry.yarnpkg.com/@baifendian/adherev-util-browsersniff/-/adherev-util-browsersniff-1.0.8.tgz#0414d08318dc26bc1b2ce2d105aeb232386a3592"
-  integrity sha512-BO1gt88KwqORAy3+JvHvMynu6bOtDHHY/H1FuRyRzOiYy2vswEe7zg9L/9pA9WNCtLz2fQcP6eiRy8Ig5rbpGg==
+"@baifendian/adherev-util-browsersniff@^1.0.8-fix.1":
+  version "1.0.8-fix.1"
+  resolved "https://registry.yarnpkg.com/@baifendian/adherev-util-browsersniff/-/adherev-util-browsersniff-1.0.8-fix.1.tgz#687fda7ba61e1f3c816a50d91b53f1c370f2d8b0"
+  integrity sha512-IeX77VtDTu97vdWzzLfodOFjsbwO6sOZFo6iY2g+tzVBpyqnMInZR5RkORjxwO230zU+aAg+eBm2L3Gx6/9omA==
   dependencies:
     "@baifendian/adhere-util-browsersniff" "^1.0.14"
-    "@baifendian/adherev-util" "^1.0.8"
+    "@baifendian/adherev-util" "^1.0.8-fix.1"
 
-"@baifendian/adherev-util-communication-ajax@^1.0.8":
-  version "1.0.8"
-  resolved "https://registry.yarnpkg.com/@baifendian/adherev-util-communication-ajax/-/adherev-util-communication-ajax-1.0.8.tgz#6e8cd6b2fdb51903e953abd2448ab5caef55fd8a"
-  integrity sha512-PKi9lQjjuMJrnDEzO6gkK1mJU80Untw9FzknFoyKtd2zTvTWMKmUvNNyAa52PJatg5fD4rvh21fJsOYCIVnB5w==
+"@baifendian/adherev-util-communication-ajax@^1.0.8-fix.1":
+  version "1.0.8-fix.1"
+  resolved "https://registry.yarnpkg.com/@baifendian/adherev-util-communication-ajax/-/adherev-util-communication-ajax-1.0.8-fix.1.tgz#bf1adc985e7a4da8e0d07e903ff08f324677d6ea"
+  integrity sha512-dM0PKRta9AQHH7CPLDkGBNWIn6db95hkw2yauviTxN1ksMcc6IxtZk3ZKmHZbeRfM0nS2wH3DRUxLxn+8gjobw==
   dependencies:
-    "@baifendian/adherev-ui-globalindicator" "^1.0.8"
-    "@baifendian/adherev-util" "^1.0.8"
-    "@baifendian/adherev-util-intl" "^1.0.8"
+    "@baifendian/adherev-ui-globalindicator" "^1.0.8-fix.1"
+    "@baifendian/adherev-util" "^1.0.8-fix.1"
+    "@baifendian/adherev-util-intl" "^1.0.8-fix.1"
     ant-design-vue "^1.7.5"
     vue "^2.6.14"
 
-"@baifendian/adherev-util-dict@^1.0.8":
-  version "1.0.8"
-  resolved "https://registry.yarnpkg.com/@baifendian/adherev-util-dict/-/adherev-util-dict-1.0.8.tgz#e196d243d55f5c26c16b54b930d9d5675964af50"
-  integrity sha512-svAYC0yTNpM1Kqen0/kZIFD86hwRj3XBOwQMU7NVIVkYtiWZ+ZKW4bCnjCqUREzZK6P9rfqD5ltJ18eeW3thqw==
+"@baifendian/adherev-util-dict@^1.0.8-fix.1":
+  version "1.0.8-fix.1"
+  resolved "https://registry.yarnpkg.com/@baifendian/adherev-util-dict/-/adherev-util-dict-1.0.8-fix.1.tgz#c90dbac3931ccd5ec7dba394d182d07711f6f9c8"
+  integrity sha512-wnRtFJkZouSjTsHgnraV/80V9sBsoX6332yy3InGin3b8tPteOOFGai3xB76tvfCu1/Tbr9L/9GEu0kFmG3d1g==
   dependencies:
     "@baifendian/adhere-util-dict" "^1.0.14"
-    "@baifendian/adherev-util" "^1.0.8"
+    "@baifendian/adherev-util" "^1.0.8-fix.1"
 
-"@baifendian/adherev-util-domain@^1.0.8":
-  version "1.0.8"
-  resolved "https://registry.yarnpkg.com/@baifendian/adherev-util-domain/-/adherev-util-domain-1.0.8.tgz#6b32eb5d4cf590fae90e0a750a71644359763628"
-  integrity sha512-6vTTUtasKXMaVIo4b2/DVcqgPY2v9D0rmfzsYaCqYQ8eLDpbpuxh9kgc+rtbinnlETPf0UgXfJU7SJGRE4wRsA==
+"@baifendian/adherev-util-domain@^1.0.8-fix.1":
+  version "1.0.8-fix.1"
+  resolved "https://registry.yarnpkg.com/@baifendian/adherev-util-domain/-/adherev-util-domain-1.0.8-fix.1.tgz#843d56a4a426177c6102272666dc6867244a1158"
+  integrity sha512-eMlwGoxhKsxhdw31iVC+A/UxZjBB8kMxmO9apqACfROLLdwNoU1Qa/cieNbReNdLHUxEA9LLhTP/dAyo/x7a9Q==
   dependencies:
     "@baifendian/adhere-util-domain" "^1.0.14"
-    "@baifendian/adherev-util" "^1.0.8"
+    "@baifendian/adherev-util" "^1.0.8-fix.1"
 
-"@baifendian/adherev-util-emitter@^1.0.8":
-  version "1.0.8"
-  resolved "https://registry.yarnpkg.com/@baifendian/adherev-util-emitter/-/adherev-util-emitter-1.0.8.tgz#a826d07728f5e20a33cfe088beaf6350fa3a4ce5"
-  integrity sha512-IXWKH0S2bq7knIKYr4eZIpq8VD/2VFKbEqoR/jYk4/iMYH9O3Cx9RR1dtPIgkHfS9VxqqCHxa5orBgv8qLWIXA==
+"@baifendian/adherev-util-emitter@^1.0.8-fix.1":
+  version "1.0.8-fix.1"
+  resolved "https://registry.yarnpkg.com/@baifendian/adherev-util-emitter/-/adherev-util-emitter-1.0.8-fix.1.tgz#2ad16b8c58311dd768d00b8508cc29758c89664f"
+  integrity sha512-qi20nx2DfqVN/RMYIkqxMO3AkLAPybKs8zrsBPkvL6b6gE3z154hlnsEnf0yGObn3sM70K5NxgD20zYcde2i3g==
   dependencies:
     "@baifendian/adhere-util-emitter" "^1.0.14"
-    "@baifendian/adherev-util" "^1.0.8"
+    "@baifendian/adherev-util" "^1.0.8-fix.1"
 
-"@baifendian/adherev-util-intl@^1.0.8":
-  version "1.0.8"
-  resolved "https://registry.yarnpkg.com/@baifendian/adherev-util-intl/-/adherev-util-intl-1.0.8.tgz#bbbb10d47fd62df6acec615a6ff8ace3e82f618b"
-  integrity sha512-ui9zL5WqcJw9EpahduWFaTaWo5Rh/Xo7PGQw3m+0Y95uZT9Bo5bHf3oQrr4ys9bbjihaBWhL9FoC6kF0mMawIA==
+"@baifendian/adherev-util-intl@^1.0.8-fix.1":
+  version "1.0.8-fix.1"
+  resolved "https://registry.yarnpkg.com/@baifendian/adherev-util-intl/-/adherev-util-intl-1.0.8-fix.1.tgz#a1c486b34f5012a83308f34a4d93a108ed2eba52"
+  integrity sha512-aLsTAqxVz1bUSzZsBRBEmTPw4DNMXisjE967wAs8UEevuBCnw7tkc3nXkYJdMHleQBI+rrF1Q9gOmhwtoN0KeQ==
   dependencies:
     "@baifendian/adhere-util-intl" "^1.0.14"
-    "@baifendian/adherev-util" "^1.0.8"
+    "@baifendian/adherev-util" "^1.0.8-fix.1"
     vue-i18n "^8.24.4"
 
-"@baifendian/adherev-util-mixins@^1.0.8":
-  version "1.0.8"
-  resolved "https://registry.yarnpkg.com/@baifendian/adherev-util-mixins/-/adherev-util-mixins-1.0.8.tgz#0f268830e4c8ab62c4b13333917f8782d6bd947e"
-  integrity sha512-fYnV/oGBG7BzWs+ONWmeIK/4QEC7mV5//In0kYv0uZ0/mv6wQBvmwv1XLy46kOTCyGUV5AC1sqQCLi/AxNdBbg==
+"@baifendian/adherev-util-mixins@^1.0.8-fix.1":
+  version "1.0.8-fix.1"
+  resolved "https://registry.yarnpkg.com/@baifendian/adherev-util-mixins/-/adherev-util-mixins-1.0.8-fix.1.tgz#b304f007a3b8005437e22626849d9e9cfd02aafe"
+  integrity sha512-veFhsGnKgBNZtw2FZ27H4LkKmHjD98S1T9dB6VgRdc/AdbZKIjCqWV/EnsDCBeSdOfCyo/LsIsbw0BpZCjjpMg==
   dependencies:
-    "@baifendian/adherev-util" "^1.0.8"
+    "@baifendian/adherev-util" "^1.0.8-fix.1"
 
-"@baifendian/adherev-util-notnull@^1.0.8":
-  version "1.0.8"
-  resolved "https://registry.yarnpkg.com/@baifendian/adherev-util-notnull/-/adherev-util-notnull-1.0.8.tgz#3dd3d48204af0387aac1ceb93c2cdfaf2d304d13"
-  integrity sha512-YJq6tcKJzz4pWOo30DKiRxxRDL/CjrHj+ZzR7+nDH4qgcDt5jBDI0MkVjZcoBcb9ZHvJOAXk1cNCoD3bLSWzhg==
+"@baifendian/adherev-util-notnull@^1.0.8-fix.1":
+  version "1.0.8-fix.1"
+  resolved "https://registry.yarnpkg.com/@baifendian/adherev-util-notnull/-/adherev-util-notnull-1.0.8-fix.1.tgz#ef71e630d7a93d44c5abeb5e6b7f9f9244ddf591"
+  integrity sha512-FAKSCyVE2gX8sehrY1KNqij98Lvzoo+8uKvc0v81YZu9GSdJ/6FE+TV1tq/j+stanR+jvhF6M+yuwH9kbosXHw==
   dependencies:
-    "@baifendian/adhere-util-notnull" "^1.0.14-fix.0"
-    "@baifendian/adherev-util" "^1.0.8"
+    "@baifendian/adhere-util-notnull" "^1.0.14-fix.1"
+    "@baifendian/adherev-util" "^1.0.8-fix.1"
 
-"@baifendian/adherev-util-preferences@^1.0.8":
-  version "1.0.8"
-  resolved "https://registry.yarnpkg.com/@baifendian/adherev-util-preferences/-/adherev-util-preferences-1.0.8.tgz#119fd49f43cb916ee928a520fbc0b1cd56a17f13"
-  integrity sha512-azyG8dy8o2rsEzpi1nI6dluWlTs0WPAOb41CrN+F2B8Huh0uxaxB+tMpt00cyLhnkKOlSvAgteEKA4X8Z/B86w==
+"@baifendian/adherev-util-preferences@^1.0.8-fix.1":
+  version "1.0.8-fix.1"
+  resolved "https://registry.yarnpkg.com/@baifendian/adherev-util-preferences/-/adherev-util-preferences-1.0.8-fix.1.tgz#c71735bc4e5d6079ce43dbaecb8dd3adf6322a4b"
+  integrity sha512-5JgDiiz5DNqJRS6X7nCGoqyo6iN/uU/OJXIny0HjwmlvZmqn2Z1AOOXVwm1+/4JamIRAsUQAAA4rePg4tmFX3g==
   dependencies:
     "@baifendian/adhere-util-preferences" "^1.0.14"
-    "@baifendian/adherev-util" "^1.0.8"
+    "@baifendian/adherev-util" "^1.0.8-fix.1"
 
-"@baifendian/adherev-util-resource@^1.0.8":
-  version "1.0.8"
-  resolved "https://registry.yarnpkg.com/@baifendian/adherev-util-resource/-/adherev-util-resource-1.0.8.tgz#b6b43865ec51c49041b00f17d154de0eba4b691e"
-  integrity sha512-bY5kN9freXwbVDAmkF4gupaQ18rBj5JtNeyz+K4/ogaRHdPF5/ndaMBCxCXpM3Vwico+WKBKhyHHHCbpuB2jcg==
+"@baifendian/adherev-util-resource@^1.0.8-fix.1":
+  version "1.0.8-fix.1"
+  resolved "https://registry.yarnpkg.com/@baifendian/adherev-util-resource/-/adherev-util-resource-1.0.8-fix.1.tgz#ae32e6df90a2ef62e2972128eb1ac6dfc9d00a5a"
+  integrity sha512-ZKyi/yYcTv9RlC2Y7t7x62U6e7iy913tuj317ScpJUxat20gcFkdx7A3G9nXQLmktdWG3rhEVa+gtZcbEwM2Dg==
   dependencies:
-    "@baifendian/adherev-util" "^1.0.8"
-    "@baifendian/adherev-util-dict" "^1.0.8"
-    "@baifendian/adherev-util-intl" "^1.0.8"
+    "@baifendian/adherev-util" "^1.0.8-fix.1"
+    "@baifendian/adherev-util-dict" "^1.0.8-fix.1"
+    "@baifendian/adherev-util-intl" "^1.0.8-fix.1"
     ant-design-vue "^1.7.5"
     moment "^2.29.1"
     vue "^2.6.14"
 
-"@baifendian/adherev-util-validator@^1.0.8":
-  version "1.0.8"
-  resolved "https://registry.yarnpkg.com/@baifendian/adherev-util-validator/-/adherev-util-validator-1.0.8.tgz#def76433ca25e05746bcdc8c97d70ec51929319f"
-  integrity sha512-E/wIS/103FTJltwiW5ykVdYvrbImnUp2Kx3Ys2MvqvHN/cX2TPN50Cx4lJrKeV49o+M3A5rd1qCjRvQ2RZA6Tw==
+"@baifendian/adherev-util-validator@^1.0.8-fix.1":
+  version "1.0.8-fix.1"
+  resolved "https://registry.yarnpkg.com/@baifendian/adherev-util-validator/-/adherev-util-validator-1.0.8-fix.1.tgz#a994f22ee7a3d63e69da06c8c9f20608a00a5539"
+  integrity sha512-8dlqnWN1aB+HFNbYWaIOa9gjB7WKxv38h5GmJiRWVZVyI2SayKyo3ZwpP833Ok0BQhIJ/FCo0pHsLhyu7KWxFA==
   dependencies:
     "@baifendian/adhere-util-validator" "^1.0.14"
-    "@baifendian/adherev-util" "^1.0.8"
+    "@baifendian/adherev-util" "^1.0.8-fix.1"
 
-"@baifendian/adherev-util-watchmemoized@^1.0.8":
-  version "1.0.8"
-  resolved "https://registry.yarnpkg.com/@baifendian/adherev-util-watchmemoized/-/adherev-util-watchmemoized-1.0.8.tgz#05b1c6e2eacf7a2cc0aa68bf60709f528aa58ef6"
-  integrity sha512-Fa8b+Z2/uXZvC20wGQr96uj+2gz+oM6cIq+NFvf51iFLU52K8N1Wtw4njdk5Fi/9oO1vzX0leKzo2fJ1Q2uRmA==
+"@baifendian/adherev-util-watchmemoized@^1.0.8-fix.1":
+  version "1.0.8-fix.1"
+  resolved "https://registry.yarnpkg.com/@baifendian/adherev-util-watchmemoized/-/adherev-util-watchmemoized-1.0.8-fix.1.tgz#421ce5675457cb9b1153bb5452d72f2294ef1bcf"
+  integrity sha512-J3RSi4EpUtetluHz6tkiNGGIfm/BlIo7Fka3ZeDuP+nL2iv3dsi3XmaYTDJ0JqgorMd09hl2li3qe0qv4rRyKQ==
   dependencies:
-    "@baifendian/adhere-util-watchmemoized" "^1.0.14-fix.0"
-    "@baifendian/adherev-util" "^1.0.8"
+    "@baifendian/adhere-util-watchmemoized" "^1.0.14-fix.1"
+    "@baifendian/adherev-util" "^1.0.8-fix.1"
 
-"@baifendian/adherev-util@^1.0.8":
-  version "1.0.8"
-  resolved "https://registry.yarnpkg.com/@baifendian/adherev-util/-/adherev-util-1.0.8.tgz#ec6584054553540d4a6f683e02f568fa49f007f9"
-  integrity sha512-RyTqJ+HSwTvJPuWsHCHTviAYLuOEt/VvijmjKiIOG7z0rxWB163K1tSg1/FxGppmxgsjuEqIegr6JgriwuPNpw==
+"@baifendian/adherev-util@^1.0.8-fix.1":
+  version "1.0.8-fix.1"
+  resolved "https://registry.yarnpkg.com/@baifendian/adherev-util/-/adherev-util-1.0.8-fix.1.tgz#ea9910219ddde0f98f98a6c7ecb2bea3713debf9"
+  integrity sha512-S+8hraAtD9v7sOE/5/JF/UqB5j6GZuwQ628i880WFdQ2ZQmIiNqQM2f+nEZ5Ik2c9cj6hWyH5Bj50KRLfjHNrA==
   dependencies:
-    "@baifendian/adhere-util" "^1.0.14-fix.0"
+    "@baifendian/adhere-util" "^1.0.14-fix.1"
 
-"@baifendian/adherev@^1.0.8":
-  version "1.0.8"
-  resolved "https://registry.yarnpkg.com/@baifendian/adherev/-/adherev-1.0.8.tgz#1d43f97bd2ea6aed68aa34700308341ecf7d69ce"
-  integrity sha512-CorvJUN0lpku19vxGYzKYgBnUquy6nCON+K/MeThfVhTsw/zeQY1WTkI3krvlP+KqfejOpOnNmDii4fU+Cmr3g==
+"@baifendian/adherev@^1.0.8-fix.1":
+  version "1.0.8-fix.1"
+  resolved "https://registry.yarnpkg.com/@baifendian/adherev/-/adherev-1.0.8-fix.1.tgz#a999437f2e90431d62def282e442cb6b0f4031e2"
+  integrity sha512-izhAk1hUplE1I029ysjX4ruIvdRfi/xc4P3mWe73ABmq/9mEyWmLI3LS29hXS7ggkdpnkPmwdJ8DV9qXfhBJRg==
   dependencies:
     "@baifendian/adhere-ui-css" "^1.0.14"
     "@baifendian/adhere-ui-historyback" "^1.0.14"
-    "@baifendian/adhere-util" "^1.0.14-fix.0"
+    "@baifendian/adhere-util" "^1.0.14-fix.1"
     "@baifendian/adhere-util-adapterscreen" "^1.0.14"
     "@baifendian/adhere-util-dict" "^1.0.14"
     "@baifendian/adhere-util-emitter" "^1.0.14"
-    "@baifendian/adhere-util-notnull" "^1.0.14-fix.0"
+    "@baifendian/adhere-util-notnull" "^1.0.14-fix.1"
     "@baifendian/adhere-util-preferences" "^1.0.14"
-    "@baifendian/adhere-util-watchmemoized" "^1.0.14-fix.0"
-    "@baifendian/adherev-ui-backtopanimation" "^1.0.8"
-    "@baifendian/adherev-ui-bmap" "^1.0.8"
-    "@baifendian/adherev-ui-cascadecompared" "^1.0.8"
-    "@baifendian/adherev-ui-conditionalrender" "^1.0.8"
-    "@baifendian/adherev-ui-confirm-delconfirm" "^1.0.8"
-    "@baifendian/adherev-ui-confirm-importantconfirm" "^1.0.8"
-    "@baifendian/adherev-ui-contextmenu" "^1.0.8"
-    "@baifendian/adherev-ui-css" "^1.0.8"
-    "@baifendian/adherev-ui-flexlayout" "^1.0.8"
-    "@baifendian/adherev-ui-fontsizesetting" "^1.0.8"
-    "@baifendian/adherev-ui-globalindicator" "^1.0.8"
-    "@baifendian/adherev-ui-historyback" "^1.0.8"
-    "@baifendian/adherev-ui-imagelazy" "^1.0.8"
-    "@baifendian/adherev-ui-jdcategorytab" "^1.0.8"
-    "@baifendian/adherev-ui-messagedialog" "^1.0.8"
-    "@baifendian/adherev-ui-notification" "^1.0.8"
-    "@baifendian/adherev-ui-olmap" "^1.0.8"
-    "@baifendian/adherev-ui-permission" "^1.0.8"
-    "@baifendian/adherev-ui-playground" "^1.0.8"
-    "@baifendian/adherev-ui-polygonselection" "^1.0.8"
-    "@baifendian/adherev-ui-popup" "^1.0.8"
-    "@baifendian/adherev-ui-prompt-errorprompt" "^1.0.8"
-    "@baifendian/adherev-ui-prompt-successprompt" "^1.0.8"
-    "@baifendian/adherev-ui-prompt-warnprompt" "^1.0.8"
-    "@baifendian/adherev-ui-pullrefresh" "^1.0.8"
-    "@baifendian/adherev-ui-revolving" "^1.0.8"
-    "@baifendian/adherev-ui-scrollload" "^1.0.8"
-    "@baifendian/adherev-ui-searchtable" "^1.0.8"
-    "@baifendian/adherev-ui-slidelayout" "^1.0.8"
-    "@baifendian/adherev-ui-sliderscale" "^1.0.8"
-    "@baifendian/adherev-ui-space" "^1.0.8"
-    "@baifendian/adherev-ui-spin" "^1.0.8"
-    "@baifendian/adherev-ui-split" "^1.0.8"
-    "@baifendian/adherev-ui-splitlayout" "^1.0.8"
-    "@baifendian/adherev-ui-stickuplayout" "^1.0.8"
-    "@baifendian/adherev-ui-surnames" "^1.0.8"
-    "@baifendian/adherev-ui-suspense" "^1.0.8"
-    "@baifendian/adherev-ui-swipeout" "^1.0.8"
-    "@baifendian/adherev-util" "^1.0.8"
-    "@baifendian/adherev-util-adapterscreen" "^1.0.8"
-    "@baifendian/adherev-util-browsersniff" "^1.0.8"
-    "@baifendian/adherev-util-communication-ajax" "^1.0.8"
-    "@baifendian/adherev-util-dict" "^1.0.8"
-    "@baifendian/adherev-util-domain" "^1.0.8"
-    "@baifendian/adherev-util-emitter" "^1.0.8"
-    "@baifendian/adherev-util-intl" "^1.0.8"
-    "@baifendian/adherev-util-mixins" "^1.0.8"
-    "@baifendian/adherev-util-notnull" "^1.0.8"
-    "@baifendian/adherev-util-preferences" "^1.0.8"
-    "@baifendian/adherev-util-resource" "^1.0.8"
-    "@baifendian/adherev-util-validator" "^1.0.8"
-    "@baifendian/adherev-util-watchmemoized" "^1.0.8"
+    "@baifendian/adhere-util-watchmemoized" "^1.0.14-fix.1"
+    "@baifendian/adherev-ui-backtopanimation" "^1.0.8-fix.1"
+    "@baifendian/adherev-ui-cascadecompared" "^1.0.8-fix.1"
+    "@baifendian/adherev-ui-conditionalrender" "^1.0.8-fix.1"
+    "@baifendian/adherev-ui-confirm-delconfirm" "^1.0.8-fix.1"
+    "@baifendian/adherev-ui-confirm-importantconfirm" "^1.0.8-fix.1"
+    "@baifendian/adherev-ui-contextmenu" "^1.0.8-fix.1"
+    "@baifendian/adherev-ui-css" "^1.0.8-fix.1"
+    "@baifendian/adherev-ui-flexlayout" "^1.0.8-fix.1"
+    "@baifendian/adherev-ui-fontsizesetting" "^1.0.8-fix.1"
+    "@baifendian/adherev-ui-globalindicator" "^1.0.8-fix.1"
+    "@baifendian/adherev-ui-historyback" "^1.0.8-fix.1"
+    "@baifendian/adherev-ui-imagelazy" "^1.0.8-fix.1"
+    "@baifendian/adherev-ui-jdcategorytab" "^1.0.8-fix.1"
+    "@baifendian/adherev-ui-messagedialog" "^1.0.8-fix.1"
+    "@baifendian/adherev-ui-notification" "^1.0.8-fix.1"
+    "@baifendian/adherev-ui-olmap" "^1.0.8-fix.1"
+    "@baifendian/adherev-ui-permission" "^1.0.8-fix.1"
+    "@baifendian/adherev-ui-playground" "^1.0.8-fix.1"
+    "@baifendian/adherev-ui-polygonselection" "^1.0.8-fix.1"
+    "@baifendian/adherev-ui-popup" "^1.0.8-fix.1"
+    "@baifendian/adherev-ui-prompt-errorprompt" "^1.0.8-fix.1"
+    "@baifendian/adherev-ui-prompt-successprompt" "^1.0.8-fix.1"
+    "@baifendian/adherev-ui-prompt-warnprompt" "^1.0.8-fix.1"
+    "@baifendian/adherev-ui-pullrefresh" "^1.0.8-fix.1"
+    "@baifendian/adherev-ui-revolving" "^1.0.8-fix.1"
+    "@baifendian/adherev-ui-scrollload" "^1.0.8-fix.1"
+    "@baifendian/adherev-ui-searchtable" "^1.0.8-fix.1"
+    "@baifendian/adherev-ui-slidelayout" "^1.0.8-fix.1"
+    "@baifendian/adherev-ui-sliderscale" "^1.0.8-fix.1"
+    "@baifendian/adherev-ui-space" "^1.0.8-fix.1"
+    "@baifendian/adherev-ui-spin" "^1.0.8-fix.1"
+    "@baifendian/adherev-ui-split" "^1.0.8-fix.1"
+    "@baifendian/adherev-ui-splitlayout" "^1.0.8-fix.1"
+    "@baifendian/adherev-ui-stickuplayout" "^1.0.8-fix.1"
+    "@baifendian/adherev-ui-surnames" "^1.0.8-fix.1"
+    "@baifendian/adherev-ui-suspense" "^1.0.8-fix.1"
+    "@baifendian/adherev-ui-swipeout" "^1.0.8-fix.1"
+    "@baifendian/adherev-util" "^1.0.8-fix.1"
+    "@baifendian/adherev-util-adapterscreen" "^1.0.8-fix.1"
+    "@baifendian/adherev-util-browsersniff" "^1.0.8-fix.1"
+    "@baifendian/adherev-util-communication-ajax" "^1.0.8-fix.1"
+    "@baifendian/adherev-util-dict" "^1.0.8-fix.1"
+    "@baifendian/adherev-util-domain" "^1.0.8-fix.1"
+    "@baifendian/adherev-util-emitter" "^1.0.8-fix.1"
+    "@baifendian/adherev-util-intl" "^1.0.8-fix.1"
+    "@baifendian/adherev-util-mixins" "^1.0.8-fix.1"
+    "@baifendian/adherev-util-notnull" "^1.0.8-fix.1"
+    "@baifendian/adherev-util-preferences" "^1.0.8-fix.1"
+    "@baifendian/adherev-util-resource" "^1.0.8-fix.1"
+    "@baifendian/adherev-util-validator" "^1.0.8-fix.1"
+    "@baifendian/adherev-util-watchmemoized" "^1.0.8-fix.1"
     "@form-create/ant-design-vue" "^2.5.6"
     algebra.js "^0.2.6"
     ant-design-vue "^1.7.5"
@@ -3331,36 +3295,10 @@
   resolved "https://registry.yarnpkg.com/@types/parse-json/-/parse-json-4.0.0.tgz#2f8bb441434d163b35fb8ffdccd7138927ffb8c0"
   integrity sha512-//oorEZjL6sbPcKUaCdIGlIUeH26mgzimjBB77G6XRgnDl/L5wOnpyBGRe/Mmf5CVW3PwEBE1NjiMZ/ssFh4wA==
 
-"@types/prop-types@*":
-  version "15.7.4"
-  resolved "https://registry.yarnpkg.com/@types/prop-types/-/prop-types-15.7.4.tgz#fcf7205c25dff795ee79af1e30da2c9790808f11"
-  integrity sha512-rZ5drC/jWjrArrS8BR6SIr4cWpW09RNTYt9AMZo3Jwwif+iacXAqgVjm0B0Bv/S1jhDXKHqRVNCbACkJ89RAnQ==
-
 "@types/q@^1.5.1":
   version "1.5.5"
   resolved "https://registry.yarnpkg.com/@types/q/-/q-1.5.5.tgz#75a2a8e7d8ab4b230414505d92335d1dcb53a6df"
   integrity sha512-L28j2FcJfSZOnL1WBjDYp2vUHCeIFlyYI/53EwD/rKUBQ7MtUUfbQWiyKJGpcnv4/WgrhWsFKrcPstcAt/J0tQ==
-
-"@types/react-dom@^17.0.0":
-  version "17.0.11"
-  resolved "https://registry.yarnpkg.com/@types/react-dom/-/react-dom-17.0.11.tgz#e1eadc3c5e86bdb5f7684e00274ae228e7bcc466"
-  integrity sha512-f96K3k+24RaLGVu/Y2Ng3e1EbZ8/cVJvypZWd7cy0ofCBaf2lcM46xNhycMZ2xGwbBjRql7hOlZ+e2WlJ5MH3Q==
-  dependencies:
-    "@types/react" "*"
-
-"@types/react@*", "@types/react@^17.0.0":
-  version "17.0.39"
-  resolved "https://registry.yarnpkg.com/@types/react/-/react-17.0.39.tgz#d0f4cde092502a6db00a1cded6e6bf2abb7633ce"
-  integrity sha512-UVavlfAxDd/AgAacMa60Azl7ygyQNRwC/DsHZmKgNvPmRR5p70AJ5Q9EAmL2NWOJmeV+vVUI4IAP7GZrN8h8Ug==
-  dependencies:
-    "@types/prop-types" "*"
-    "@types/scheduler" "*"
-    csstype "^3.0.2"
-
-"@types/scheduler@*":
-  version "0.16.2"
-  resolved "https://registry.yarnpkg.com/@types/scheduler/-/scheduler-0.16.2.tgz#1a62f89525723dde24ba1b01b092bf5df8ad4d39"
-  integrity sha512-hppQEBDmlwhFAXKJX2KnWLYu5yMfi91yazPb2l+lbJiwW+wdo1gNeRA+3RgNSO39WYX2euey41KEwnqesU2Jew==
 
 "@types/source-list-map@*":
   version "0.1.2"
@@ -4511,13 +4449,6 @@ bluebird@^3.1.1, bluebird@^3.5.1, bluebird@^3.5.5:
   version "3.7.2"
   resolved "https://registry.yarnpkg.com/bluebird/-/bluebird-3.7.2.tgz#9f229c15be272454ffa973ace0dbee79a1b0c36f"
   integrity sha512-XpNj6GDQzdfW+r2Wnn7xiSAd7TM3jzkxGXBGTtWKuSXv1xUV+azxAm8jdWZN06QTQk+2N2XB9jRDkvbmQmcRtg==
-
-bmap-wind@^1.1.1-alpha.2:
-  version "1.1.1-alpha.2"
-  resolved "https://registry.yarnpkg.com/bmap-wind/-/bmap-wind-1.1.1-alpha.2.tgz#5ea2a4ad764c00087fb937f1d4caef479d3a3fd8"
-  integrity sha512-NAbsUvLT+q0d6yQutwEk+ZeO26r0Fv0n/iQ0IB/RL8MYDjh+ChoLQSQeWR9W8y65kCaSXxPhR4zmwMIrJoiQzQ==
-  dependencies:
-    wind-core "^1.1.1-alpha.2"
 
 bn.js@^4.0.0, bn.js@^4.1.0, bn.js@^4.11.9:
   version "4.12.0"
@@ -5736,11 +5667,6 @@ csso@^4.0.2:
   integrity sha512-wvlcdIbf6pwKEk7vHj8/Bkc0B4ylXZruLvOgs9doS5eOsOpuodOV2zJChSpkp+pRpYQLQMeF04nr3Z68Sta9jA==
   dependencies:
     css-tree "^1.1.2"
-
-csstype@^3.0.2:
-  version "3.0.10"
-  resolved "https://registry.yarnpkg.com/csstype/-/csstype-3.0.10.tgz#2ad3a7bed70f35b965707c092e5f30b327c290e5"
-  integrity sha512-2u44ZG2OcNUO9HDp/Jl8C07x6pU/eTR3ncV91SiK3dhG9TWvRVsCoJw14Ckx5DgWkzGA3waZWO3d7pgqpUI/XA==
 
 csv-loader@^3.0.2:
   version "3.0.3"
